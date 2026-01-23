@@ -19,7 +19,7 @@
 #
 
 #set -o xtrace
-FDEVICE="peridot"
+FDEVICE="onyx"
 
 fox_get_target_device() {
 	local script_path="${BASH_SOURCE[0]}"
