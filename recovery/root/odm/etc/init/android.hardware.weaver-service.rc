@@ -1,6 +1,14 @@
-service odm.weaver-service /odm/bin/hw/android.hardware.weaver-service
+#service odm.weaver-service /odm/bin/hw/android.hardware.weaver-service
+#    class hal
+#    user root
+#    group root drmrpc
+#    setenv LD_LIBRARY_PATH /vendor/lib64:/vendor/lib64/hw:/odm/lib64:/odm/variant/annibale/odm/lib64:/odm/variant/dada/odm/lib64:/odm/variant/haotian/odm/lib64:/odm/variant/pudding/odm/lib64:/odm/variant/pandora/odm/lib64:/odm/variant/popsicle/odm/lib64:/odm/variant/nezha/odm/lib64:/system/lib64:/sbin
+#    seclabel u:r:recovery:s0
+
+# Use vendor NXP weaver-service instead (no libcxx.so dependency)
+service odm.weaver-service /vendor/bin/hw/android.hardware.weaver-service.nxp
     class hal
     user root
     group root drmrpc
-    setenv LD_LIBRARY_PATH /vendor/lib64:/vendor/lib64/hw:/odm/lib64:/system/lib64:/sbin
+    setenv LD_LIBRARY_PATH /vendor/lib64:/vendor/lib64/hw:/odm/lib64:/odm/variant/annibale/odm/lib64:/odm/variant/dada/odm/lib64:/odm/variant/haotian/odm/lib64:/odm/variant/pudding/odm/lib64:/odm/variant/pandora/odm/lib64:/odm/variant/popsicle/odm/lib64:/odm/variant/nezha/odm/lib64:/system/lib64:/sbin
     seclabel u:r:recovery:s0
