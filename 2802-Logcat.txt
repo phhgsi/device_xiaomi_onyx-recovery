@@ -1,0 +1,755 @@
+01-11 07:06:37.496     0     0 I efi     : UEFI not found.
+01-11 07:06:37.496     0     0 E OF      : fdt: Reserved memory: failed to reserve memory for node 'demura_region_0': base 0x0000000000000000, size 0 MiB
+01-11 07:06:37.496     0     0 E OF      : fdt: Reserved memory: failed to reserve memory for node 'demura_region_1': base 0x0000000000000000, size 0 MiB
+01-11 07:06:37.660     1     1 W sram    : probe of 0.mmio-sram failed with error -16
+01-11 07:06:37.824   109   109 I watchdog: Delayed init of the lockup detector failed: -19
+01-11 07:06:38.196   130   130 E drivers/mihw/powersave/soc_policy_control.c init_soc_policy_control: cpufreq_cpu_get failed for CPU 0
+01-11 07:06:38.203    75    75 W arm-scmi soc: qcom,scmi: Failed to get FC for protocol 13 [MSG_ID:5 / RES_ID:0] - ret:-95. Using regular messaging.
+01-11 07:06:38.203    75    75 W arm-scmi soc: qcom,scmi: Failed to get FC for protocol 13 [MSG_ID:6 / RES_ID:0] - ret:-95. Using regular messaging.
+01-11 07:06:38.206    75    75 W arm-scmi soc: qcom,scmi: Failed to get FC for protocol 13 [MSG_ID:5 / RES_ID:1] - ret:-95. Using regular messaging.
+01-11 07:06:38.206    75    75 W arm-scmi soc: qcom,scmi: Failed to get FC for protocol 13 [MSG_ID:6 / RES_ID:1] - ret:-95. Using regular messaging.
+01-11 07:06:38.211   128   128 I dump_display: crash_record_init dump display init
+01-11 07:06:38.215   124   124 W gunyah_rsc_mgr hypervisor: qcom,resource-manager-rpc@1338599f6d7da013: RM rejected message 5600000a. Error: 3
+01-11 07:06:38.215   124   124 E gh_rm_vm_auth_image: VM_AUTH_IMAGE failed with err: -1
+01-11 07:06:38.215   124   124 E         : Ignore previous errors about failed auth call
+01-11 07:06:38.219   124   124 E qcom-scm: scm_mem_protection_init_do: SCM call failed 0, resp 7
+01-11 07:06:38.315   169   169 E bootmonitor: <monitor fail>boot_monitor_init-275:blackbox  is 1000, BLACKBOX_VERSION is 1001, no bootfail partition
+01-11 07:06:38.326   165   165 E qcom-memlat soc: qcom,memlat: error getting kobj from qcom_dcvs: -517
+01-11 07:06:38.326   165   165 E qcom-memlat soc: qcom,memlat: Failure to probe memlat device: -517
+01-11 07:06:38.327   164   164 E scid-heuristics 24800000.cache-controller: scid_heuristics: error -EOPNOTSUPP: llcc_heuristics scmi set_param failed!
+01-11 07:06:38.329   165   165 E block2mtd: error: cannot open device /dev/block/by-name/oops
+01-11 07:06:38.330    88    88 E qcom-memlat soc: qcom,memlat: error getting kobj from qcom_dcvs: -517
+01-11 07:06:38.330    88    88 E qcom-memlat soc: qcom,memlat: Failure to probe memlat device: -517
+01-11 07:06:38.330   166   166 E         : register_kretprobe failed at functionfs_bind, returned -2
+01-11 07:06:38.331   166   166 E         : register_kretprobe failed at ffs_closed, returned -2
+01-11 07:06:38.341    88    88 E qcom-memlat soc: qcom,memlat: error getting kobj from qcom_dcvs: -517
+01-11 07:06:38.341    88    88 E qcom-memlat soc: qcom,memlat: Failure to probe memlat device: -517
+01-11 07:06:38.347   166   166 E qmi-therm-sensors-v2 soc: qmi-ts-sensors: QMI[0x0] handle init failed. err:-517
+01-11 07:06:38.356   166   166 E qmi-cooling-device soc: qmi-tmd-devices: QMI[0x43] handle init failed. err:-517
+01-11 07:06:38.361   164   164 E coresight-qmi soc: turing-qmi: qmi client init failed ret:-517
+01-11 07:06:38.361   164   164 E coresight-qmi soc: audio-qmi: qmi client init failed ret:-517
+01-11 07:06:38.362   164   164 E coresight-qmi soc: modem0-qmi: qmi client init failed ret:-517
+01-11 07:06:38.362   164   164 E coresight-qmi soc: modem2-qmi: qmi client init failed ret:-517
+01-11 07:06:38.368    88    88 E qcom-memlat soc: qcom,memlat: error getting kobj from qcom_dcvs: -517
+01-11 07:06:38.368    88    88 E qcom-memlat soc: qcom,memlat: Failure to probe memlat device: -517
+01-11 07:06:38.404    88    88 E qcom-memlat soc: qcom,memlat: error getting kobj from qcom_dcvs: -517
+01-11 07:06:38.404    88    88 E qcom-memlat soc: qcom,memlat: Failure to probe memlat device: -517
+01-11 07:06:38.411    88    88 E qcom-memlat soc: qcom,memlat: error getting kobj from qcom_dcvs: -517
+01-11 07:06:38.411    88    88 E qcom-memlat soc: qcom,memlat: Failure to probe memlat device: -517
+01-11 07:06:38.417    88    88 E qcom-memlat soc: qcom,memlat: error getting kobj from qcom_dcvs: -517
+01-11 07:06:38.417    88    88 E qcom-memlat soc: qcom,memlat: Failure to probe memlat device: -517
+01-11 07:06:38.429    88    88 E qcom-memlat soc: qcom,memlat: error getting kobj from qcom_dcvs: -517
+01-11 07:06:38.429    88    88 E qcom-memlat soc: qcom,memlat: Failure to probe memlat device: -517
+01-11 07:06:38.434    88    88 E qcom-memlat soc: qcom,memlat: error getting kobj from qcom_dcvs: -517
+01-11 07:06:38.434    88    88 E qcom-memlat soc: qcom,memlat: Failure to probe memlat device: -517
+01-11 07:06:38.436    88    88 E qcom-memlat soc: qcom,memlat: error getting kobj from qcom_dcvs: -517
+01-11 07:06:38.436    88    88 E qcom-memlat soc: qcom,memlat: Failure to probe memlat device: -517
+01-11 07:06:38.438    88    88 E qcom-memlat soc: qcom,memlat: error getting kobj from qcom_dcvs: -517
+01-11 07:06:38.438    88    88 E qcom-memlat soc: qcom,memlat: Failure to probe memlat device: -517
+01-11 07:06:38.441    88    88 E qcom-memlat soc: qcom,memlat: error getting kobj from qcom_dcvs: -517
+01-11 07:06:38.441    88    88 E qcom-memlat soc: qcom,memlat: Failure to probe memlat device: -517
+01-11 07:06:38.444   254   254 E platform 16f2000.anoc_1_qtb: TBU failed probe, QSMMUV500 cannot continue!
+01-11 07:06:38.445    88    88 E qcom-memlat soc: qcom,memlat: error getting kobj from qcom_dcvs: -517
+01-11 07:06:38.446    88    88 E qcom-memlat soc: qcom,memlat: Failure to probe memlat device: -517
+01-11 07:06:38.446    88    88 E platform 16f2000.anoc_1_qtb: TBU failed probe, QSMMUV500 cannot continue!
+01-11 07:06:38.447    88    88 E qcom-memlat soc: qcom,memlat: error getting kobj from qcom_dcvs: -517
+01-11 07:06:38.447    88    88 E qcom-memlat soc: qcom,memlat: Failure to probe memlat device: -517
+01-11 07:06:38.447    88    88 E platform 16f2000.anoc_1_qtb: TBU failed probe, QSMMUV500 cannot continue!
+01-11 07:06:38.447    88    88 E qcom-memlat soc: qcom,memlat: error getting kobj from qcom_dcvs: -517
+01-11 07:06:38.447    88    88 E qcom-memlat soc: qcom,memlat: Failure to probe memlat device: -517
+01-11 07:06:38.448    88    88 E platform 16f2000.anoc_1_qtb: TBU failed probe, QSMMUV500 cannot continue!
+01-11 07:06:38.448    88    88 E qcom-memlat soc: qcom,memlat: error getting kobj from qcom_dcvs: -517
+01-11 07:06:38.448    88    88 E qcom-memlat soc: qcom,memlat: Failure to probe memlat device: -517
+01-11 07:06:38.449    88    88 E platform 16f2000.anoc_1_qtb: TBU failed probe, QSMMUV500 cannot continue!
+01-11 07:06:38.449    88    88 E qcom-memlat soc: qcom,memlat: error getting kobj from qcom_dcvs: -517
+01-11 07:06:38.449    88    88 E qcom-memlat soc: qcom,memlat: Failure to probe memlat device: -517
+01-11 07:06:38.450    88    88 E platform 16f2000.anoc_1_qtb: TBU failed probe, QSMMUV500 cannot continue!
+01-11 07:06:38.450    88    88 E qcom-memlat soc: qcom,memlat: error getting kobj from qcom_dcvs: -517
+01-11 07:06:38.450    88    88 E qcom-memlat soc: qcom,memlat: Failure to probe memlat device: -517
+01-11 07:06:38.450    88    88 E platform 16f2000.anoc_1_qtb: TBU failed probe, QSMMUV500 cannot continue!
+01-11 07:06:38.450    88    88 E qcom-memlat soc: qcom,memlat: error getting kobj from qcom_dcvs: -517
+01-11 07:06:38.450    88    88 E qcom-memlat soc: qcom,memlat: Failure to probe memlat device: -517
+01-11 07:06:38.451    88    88 E platform 16f2000.anoc_1_qtb: TBU failed probe, QSMMUV500 cannot continue!
+01-11 07:06:38.451    88    88 E qcom-memlat soc: qcom,memlat: error getting kobj from qcom_dcvs: -517
+01-11 07:06:38.451    88    88 E qcom-memlat soc: qcom,memlat: Failure to probe memlat device: -517
+01-11 07:06:38.451    88    88 E platform 16f2000.anoc_1_qtb: TBU failed probe, QSMMUV500 cannot continue!
+01-11 07:06:38.452    88    88 E qcom-memlat soc: qcom,memlat: error getting kobj from qcom_dcvs: -517
+01-11 07:06:38.452    88    88 E qcom-memlat soc: qcom,memlat: Failure to probe memlat device: -517
+01-11 07:06:38.452    88    88 E platform 16f2000.anoc_1_qtb: TBU failed probe, QSMMUV500 cannot continue!
+01-11 07:06:38.452    88    88 E qcom-memlat soc: qcom,memlat: error getting kobj from qcom_dcvs: -517
+01-11 07:06:38.452    88    88 E qcom-memlat soc: qcom,memlat: Failure to probe memlat device: -517
+01-11 07:06:38.453    88    88 E platform 16f2000.anoc_1_qtb: TBU failed probe, QSMMUV500 cannot continue!
+01-11 07:06:38.453    88    88 E qcom-memlat soc: qcom,memlat: error getting kobj from qcom_dcvs: -517
+01-11 07:06:38.453    88    88 E qcom-memlat soc: qcom,memlat: Failure to probe memlat device: -517
+01-11 07:06:38.454    88    88 E platform 16f2000.anoc_1_qtb: TBU failed probe, QSMMUV500 cannot continue!
+01-11 07:06:38.454    88    88 E qcom-memlat soc: qcom,memlat: error getting kobj from qcom_dcvs: -517
+01-11 07:06:38.454    88    88 E qcom-memlat soc: qcom,memlat: Failure to probe memlat device: -517
+01-11 07:06:38.454    88    88 E platform 16f2000.anoc_1_qtb: TBU failed probe, QSMMUV500 cannot continue!
+01-11 07:06:38.454    88    88 E qcom-memlat soc: qcom,memlat: error getting kobj from qcom_dcvs: -517
+01-11 07:06:38.454    88    88 E qcom-memlat soc: qcom,memlat: Failure to probe memlat device: -517
+01-11 07:06:38.455    88    88 E platform 16f2000.anoc_1_qtb: TBU failed probe, QSMMUV500 cannot continue!
+01-11 07:06:38.455    88    88 E qcom-memlat soc: qcom,memlat: error getting kobj from qcom_dcvs: -517
+01-11 07:06:38.455    88    88 E qcom-memlat soc: qcom,memlat: Failure to probe memlat device: -517
+01-11 07:06:38.455    88    88 E platform 16f2000.anoc_1_qtb: TBU failed probe, QSMMUV500 cannot continue!
+01-11 07:06:38.456    88    88 E qcom-memlat soc: qcom,memlat: error getting kobj from qcom_dcvs: -517
+01-11 07:06:38.456    88    88 E qcom-memlat soc: qcom,memlat: Failure to probe memlat device: -517
+01-11 07:06:38.456    88    88 E platform 16f2000.anoc_1_qtb: TBU failed probe, QSMMUV500 cannot continue!
+01-11 07:06:38.456    88    88 E qcom-memlat soc: qcom,memlat: error getting kobj from qcom_dcvs: -517
+01-11 07:06:38.456    88    88 E qcom-memlat soc: qcom,memlat: Failure to probe memlat device: -517
+01-11 07:06:38.457    88    88 E platform 16f2000.anoc_1_qtb: TBU failed probe, QSMMUV500 cannot continue!
+01-11 07:06:38.457    88    88 E qcom-memlat soc: qcom,memlat: error getting kobj from qcom_dcvs: -517
+01-11 07:06:38.457    88    88 E qcom-memlat soc: qcom,memlat: Failure to probe memlat device: -517
+01-11 07:06:38.457    88    88 E platform 16f2000.anoc_1_qtb: TBU failed probe, QSMMUV500 cannot continue!
+01-11 07:06:38.457    88    88 E qcom-memlat soc: qcom,memlat: error getting kobj from qcom_dcvs: -517
+01-11 07:06:38.457    88    88 E qcom-memlat soc: qcom,memlat: Failure to probe memlat device: -517
+01-11 07:06:38.458    88    88 E platform 16f2000.anoc_1_qtb: TBU failed probe, QSMMUV500 cannot continue!
+01-11 07:06:38.458    88    88 E qcom-memlat soc: qcom,memlat: error getting kobj from qcom_dcvs: -517
+01-11 07:06:38.458    88    88 E qcom-memlat soc: qcom,memlat: Failure to probe memlat device: -517
+01-11 07:06:38.459    88    88 E platform 16f2000.anoc_1_qtb: TBU failed probe, QSMMUV500 cannot continue!
+01-11 07:06:38.459    88    88 E qcom-memlat soc: qcom,memlat: error getting kobj from qcom_dcvs: -517
+01-11 07:06:38.459    88    88 E qcom-memlat soc: qcom,memlat: Failure to probe memlat device: -517
+01-11 07:06:38.459    88    88 E platform 16f2000.anoc_1_qtb: TBU failed probe, QSMMUV500 cannot continue!
+01-11 07:06:38.459    88    88 E qcom-memlat soc: qcom,memlat: error getting kobj from qcom_dcvs: -517
+01-11 07:06:38.459    88    88 E qcom-memlat soc: qcom,memlat: Failure to probe memlat device: -517
+01-11 07:06:38.460    88    88 E platform 16f2000.anoc_1_qtb: TBU failed probe, QSMMUV500 cannot continue!
+01-11 07:06:38.460    88    88 E qcom-memlat soc: qcom,memlat: error getting kobj from qcom_dcvs: -517
+01-11 07:06:38.460    88    88 E qcom-memlat soc: qcom,memlat: Failure to probe memlat device: -517
+01-11 07:06:38.460    88    88 E platform 16f2000.anoc_1_qtb: TBU failed probe, QSMMUV500 cannot continue!
+01-11 07:06:38.461    88    88 E qcom-memlat soc: qcom,memlat: error getting kobj from qcom_dcvs: -517
+01-11 07:06:38.461    88    88 E qcom-memlat soc: qcom,memlat: Failure to probe memlat device: -517
+01-11 07:06:38.461    88    88 E platform 16f2000.anoc_1_qtb: TBU failed probe, QSMMUV500 cannot continue!
+01-11 07:06:38.461    88    88 E qcom-memlat soc: qcom,memlat: error getting kobj from qcom_dcvs: -517
+01-11 07:06:38.461    88    88 E qcom-memlat soc: qcom,memlat: Failure to probe memlat device: -517
+01-11 07:06:38.462    88    88 E platform 16f2000.anoc_1_qtb: TBU failed probe, QSMMUV500 cannot continue!
+01-11 07:06:38.462    88    88 E qcom-memlat soc: qcom,memlat: error getting kobj from qcom_dcvs: -517
+01-11 07:06:38.462    88    88 E qcom-memlat soc: qcom,memlat: Failure to probe memlat device: -517
+01-11 07:06:38.462    88    88 E platform 16f2000.anoc_1_qtb: TBU failed probe, QSMMUV500 cannot continue!
+01-11 07:06:38.462    88    88 E qcom-memlat soc: qcom,memlat: error getting kobj from qcom_dcvs: -517
+01-11 07:06:38.462    88    88 E qcom-memlat soc: qcom,memlat: Failure to probe memlat device: -517
+01-11 07:06:38.463    88    88 E platform 16f2000.anoc_1_qtb: TBU failed probe, QSMMUV500 cannot continue!
+01-11 07:06:38.463    88    88 E qcom-memlat soc: qcom,memlat: error getting kobj from qcom_dcvs: -517
+01-11 07:06:38.463    88    88 E qcom-memlat soc: qcom,memlat: Failure to probe memlat device: -517
+01-11 07:06:38.466    78    78 E platform 16f2000.anoc_1_qtb: TBU failed probe, QSMMUV500 cannot continue!
+01-11 07:06:38.468    78    78 E qcom-memlat soc: qcom,memlat: error getting kobj from qcom_dcvs: -517
+01-11 07:06:38.468    78    78 E qcom-memlat soc: qcom,memlat: Failure to probe memlat device: -517
+01-11 07:06:38.469    78    78 E platform 16f2000.anoc_1_qtb: TBU failed probe, QSMMUV500 cannot continue!
+01-11 07:06:38.470   269   269 E spmi-0  : pmic_arb_wait_for_done: 0xd 0x104: transaction failed (0x3)
+01-11 07:06:38.470   269   269 W pmic-spmi: probe of 0-0d failed with error -5
+01-11 07:06:38.477    78    78 E qcom-iommu-debug soc: iommu_test_device: Failed to create device link (0x180) with 3da0000.kgsl-smmu
+01-11 07:06:38.477    78    78 E qcom-iommu-debug soc: iommu_test_device: Failed to create device link (0x180) with 3da0000.kgsl-smmu
+01-11 07:06:38.480    78    78 E qcom-memlat soc: qcom,memlat: error getting kobj from qcom_dcvs: -517
+01-11 07:06:38.480    78    78 E qcom-memlat soc: qcom,memlat: Failure to probe memlat device: -517
+01-11 07:06:38.485   269   269 E spmi-0  : pmic_arb_wait_for_done: 0x4 0x104: transaction failed (0x3)
+01-11 07:06:38.485   269   269 W pmic-spmi: probe of 0-04 failed with error -5
+01-11 07:06:38.489    78    78 E qcom-iommu-debug soc: iommu_test_device: Failed to create device link (0x180) with 15000000.apps-smmu
+01-11 07:06:38.489    78    78 E qcom-iommu-debug soc: iommu_test_device: Failed to create device link (0x180) with 15000000.apps-smmu
+01-11 07:06:38.489    78    78 E qcom-iommu-debug soc: iommu_test_device: Failed to create device link (0x180) with 15000000.apps-smmu
+01-11 07:06:38.489    78    78 E qcom-iommu-debug soc: iommu_test_device: Failed to create device link (0x180) with 15000000.apps-smmu
+01-11 07:06:38.489    78    78 E qcom-iommu-debug soc: iommu_test_device: Failed to create device link (0x180) with 15000000.apps-smmu
+01-11 07:06:38.528    78    78 E qcom-memlat: Failed to configure common events: -95
+01-11 07:06:38.599   327   327 W pci-msm 1c00000.pcie: supply gdsc-core-vdd not found, using dummy regulator
+01-11 07:06:38.601   327   327 E [07:06:38:596-E][  327][mca_dts]mca_parse_dts_u32: 57 prop battery-core-test read fail, set default 0
+01-11 07:06:38.601   327   327 E [07:06:38:596-E][  327][mca_battery_psy]business_battery_psy_init: 473 get usb psy fail
+01-11 07:06:38.601   327   327 E [07:06:38:596-E][  327][mca_battery_psy]business_battery_psy_init: 477 get wls psy fail
+01-11 07:06:38.608   333   333 E [07:06:38:603-E][  333][mca_dts]mca_parse_dts_u32: 57 prop support_nvt1000_ota read fail, set default 0
+01-11 07:06:38.615   333   333 E [07:06:38:610-E][  333][fuelgauge_ic]bq_fg_probe: 6581 fg cksum_calc failed
+01-11 07:06:38.851   335   335 E [07:06:38:846-E][  335][mca_dts]mca_parse_dts_u32: 57 prop vbat_ovp_threshold_ffc_gl read fail, set default 4530
+01-11 07:06:38.851   335   335 E [07:06:38:846-E][  335][mca_dts]mca_parse_dts_u32: 57 prop vbat_ovp_threshold_normal_gl read fail, set default 4480
+01-11 07:06:38.852   337   337 E [07:06:38:847-E][  337][mca_dts]mca_parse_dts_u32_array: 92 prop not_support_sic read fail, array len 2
+01-11 07:06:38.852   337   337 E [07:06:38:847-E][  337][mca_thermal]mca_charger_thermal_parse_dt: 802 get wired_sic_select count failed
+01-11 07:06:38.852   335   335 E [07:06:38:847-E][  335][mca_dts]mca_parse_dts_u32: 57 prop base_vbat_low_hyst read fail, set default 50
+01-11 07:06:38.852   335   335 E [07:06:38:847-E][  335][mca_dts]mca_parse_dts_u32: 57 prop flip_vbat_low_hyst read fail, set default 50
+01-11 07:06:38.852   337   337 E [07:06:38:847-E][  337][mca_thermal]mca_charger_thermal_init_wired_voter: 851 init wire voter failed
+01-11 07:06:38.855   341   341 E [07:06:38:850-E][  341][mca_dts]mca_parse_dts_u32: 57 prop fg_type read fail, set default 0
+01-11 07:06:39.279   354   354 E [07:06:39:274-E][  354][mca_dts]mca_parse_dts_u32: 57 prop batt_type read fail, set default 0
+01-11 07:06:39.279   354   354 E [07:06:39:274-E][  354][mca_dts]mca_parse_dts_u32: 57 prop in_pps read fail, set default 1600
+01-11 07:06:39.279   354   354 E [07:06:39:274-E][  354][mca_dts]mca_parse_dts_u32: 57 prop chg_pps read fail, set default 3000
+01-11 07:06:39.279   354   354 E [07:06:39:274-E][  354][mca_dts]mca_parse_dts_u32: 57 prop pmic_fv_compensation_cold read fail, set default 0
+01-11 07:06:39.279   354   354 E [07:06:39:274-E][  354][mca_dts]mca_parse_dts_u32: 57 prop bat_temp_fv_comp_cold_th read fail, set default 0
+01-11 07:06:39.279   354   354 E [07:06:39:274-E][  354][mca_dts]mca_parse_dts_u32: 57 prop pmic_fv_compensation_hot read fail, set default 0
+01-11 07:06:39.279   354   354 E [07:06:39:274-E][  354][mca_dts]mca_parse_dts_u32: 57 prop bat_temp_fv_comp_hot_th read fail, set default 50
+01-11 07:06:39.279   354   354 E [07:06:39:274-E][  354][mca_dts]mca_parse_dts_u32: 57 prop pmic_middle_fv_compensation read fail, set default 0
+01-11 07:06:39.279   354   354 E [07:06:39:274-E][  354][mca_dts]mca_parse_dts_u32: 57 prop pmic_high_fv_compensation read fail, set default 0
+01-11 07:06:39.279   354   354 E [07:06:39:274-E][  354][mca_dts]mca_parse_dts_u32: 57 prop terminated_by_cp read fail, set default 0
+01-11 07:06:39.279   354   354 E [07:06:39:274-E][  354][mca_voter]mca_vote: 570 callback failed with rc=-1
+01-11 07:06:39.279   354   354 E [07:06:39:274-E][  354][mca_voter]mca_vote: 570 callback failed with rc=-1
+01-11 07:06:39.280   356   356 E [07:06:39:276-E][  356][mca_dts]mca_parse_dts_u32: 57 prop cool_threshold read fail, set default 150
+01-11 07:06:39.280   356   356 E [07:06:39:276-E][  356][mca_dts]mca_parse_dts_u32: 57 prop force_full_hys read fail, set default 150
+01-11 07:06:39.281   356   356 E [07:06:39:276-E][  356][mca_dts]mca_parse_dts_u32: 57 prop force_full_high_hys read fail, set default 150
+01-11 07:06:39.281   356   356 E [07:06:39:276-E][  356][mca_dts]mca_parse_dts_u32: 57 prop support_nvt1000_ota read fail, set default 0
+01-11 07:06:39.281   356   356 E [07:06:39:276-E][  356][mca_dts]mca_parse_dts_u32: 57 prop support_batt_xvdd_dfx read fail, set default 0
+01-11 07:06:39.281   356   356 E [07:06:39:276-E][  356][mca_dts]mca_parse_dts_string: 169 prop model-name-in read fail
+01-11 07:06:39.281   356   356 E [07:06:39:276-E][  356][mca_dts]mca_parse_dts_u32: 57 prop normal_force_full_hys read fail, set default 0
+01-11 07:06:39.281   356   356 E [07:06:39:276-E][  356][mca_strategy_fg]strategy_fg_parse_dt: 3288 strategy fg parse dt failed, ret=-22
+01-11 07:06:39.281   356   356 E [07:06:39:276-E][  356][mca_dts]mca_parse_dts_u32: 57 prop suppot_RSOC_0_smooth read fail, set default 0
+01-11 07:06:39.282   218   218 W remoteproc1: Direct firmware load for adsp.mdt failed with error -2
+01-11 07:06:39.282   218   218 W remoteproc1: Direct firmware load for adsp.mdt failed with error -2
+01-11 07:06:39.282   218   218 E remoteproc1: request_firmware failed: -2
+01-11 07:06:39.283   221   221 W remoteproc3: Direct firmware load for cdsp.mdt failed with error -2
+01-11 07:06:39.283   221   221 W remoteproc3: Direct firmware load for cdsp.mdt failed with error -2
+01-11 07:06:39.283   221   221 E remoteproc3: request_firmware failed: -2
+01-11 07:06:39.283   161   161 W remoteproc4: Direct firmware load for soccp.mbn failed with error -2
+01-11 07:06:39.283   161   161 W remoteproc4: Direct firmware load for soccp.mbn failed with error -2
+01-11 07:06:39.283   161   161 E remoteproc4: request_firmware failed: -2
+01-11 07:06:39.283    87    87 E [07:06:39:278-E][   87][mca_dts]mca_parse_dts_u32: 57 prop pmic_fv_compensation read fail, set default 0
+01-11 07:06:39.283    87    87 E [07:06:39:278-E][   87][mca_dts]mca_parse_dts_u32: 57 prop ui_max_power_limit read fail, set default 100000
+01-11 07:06:39.283    87    87 E [07:06:39:278-E][   87][mca_dts]mca_parse_dts_u32: 57 prop pps_middle_taper_fcc_thr read fail, set default 2400
+01-11 07:06:39.283    87    87 E [07:06:39:278-E][   87][mca_dts]mca_parse_dts_u32: 57 prop pps_high_taper_fcc_thr read fail, set default 2400
+01-11 07:06:39.283    87    87 E [07:06:39:278-E][   87][mca_dts]mca_parse_dts_u32: 57 prop hardware_cv read fail, set default 0
+01-11 07:06:39.283    87    87 E [07:06:39:278-E][   87][mca_dts]mca_parse_dts_u32: 57 prop max_vbat_threshold read fail, set default 5000
+01-11 07:06:39.283    87    87 E [07:06:39:278-E][   87][mca_dts]mca_parse_dts_u32: 57 prop third_pps_ibat_limit read fail, set default 6000
+01-11 07:06:39.284    87    87 E [07:06:39:279-E][   87][mca_dts]mca_parse_dts_count_strings: 207 prop drop_fcc_para length read fail
+01-11 07:06:39.287   365   365 E [07:06:39:282-E][  365][mca_dts]mca_parse_dts_u32: 57 prop gpio_chip_type read fail, set default 1
+01-11 07:06:39.287   365   365 E [07:06:39:282-E][  365][mca_dts]mca_parse_dts_u32: 57 prop vdd_boost_en read fail, set default 4294967295
+01-11 07:06:39.287   365   365 E [07:06:39:282-E][  365][mca_dts]mca_parse_dts_u32: 57 prop otg_ovp_en read fail, set default 4294967295
+01-11 07:06:39.288   221   221 E [07:06:39:283-E][  221][qcom_subpmic]qcom_subpmic_update_usb_type_work: 159 Failed to read usb_online rc=-1
+01-11 07:06:39.293   372   372 E [07:06:39:288-E][  372][mca_dts]mca_parse_dts_u32: 57 prop cp_type read fail, set default 0
+01-11 07:06:39.293   379   379 E [07:06:39:288-E][  379][mca_voter]mca_vote: 570 callback failed with rc=-1
+01-11 07:06:39.293   379   379 E [07:06:39:288-E][  379][mca_voter]mca_vote: 570 callback failed with rc=-1
+01-11 07:06:39.296   373   373 E msm-dwc3 a600000.ssusb: Failed to get gpio
+01-11 07:06:39.296   373   373 E msm-dwc3 a600000.ssusb: error -ENXIO: IRQ hs_phy_irq not found
+01-11 07:06:39.297   373   373 E msm-dwc3 a600000.ssusb: error -EINVAL: error finding dst node
+01-11 07:06:39.297   373   373 E pmic_glink soc: qcom,pmic_glink: Failed to create device link (0x180) with a600000.ssusb
+01-11 07:06:39.339    87    87 E [07:06:39:334-E][   87][mca_dts]mca_parse_dts_u32_array: 92 prop ocp_threshold read fail, array len 2
+01-11 07:06:39.339    87    87 E [07:06:39:334-E][   87][mca_quick_charge]mca_quick_charge_parse_dt: 4607 parse ocp_threshold failed, use default value
+01-11 07:06:39.385   221   221 E [07:06:39:380-E][  221][qcom_subpmic]qcom_subpmic_sync_cfg_work: 219 Failed to send cp state, rc=-1
+01-11 07:06:39.478   398   398 W dsi_phy ae95000.qcom,mdss_dsi_phy0: supply gdsc not found, using dummy regulator
+01-11 07:06:39.479   398   398 W dsi_phy ae97000.qcom,mdss_dsi_phy1: supply gdsc not found, using dummy regulator
+01-11 07:06:39.481   398   398 I         : [mi_disp:dsi_panel_parse_cell_id_read_config [msm_drm]] [I]cell_id_info pre command parsing failed
+01-11 07:06:39.481   398   398 I         : [mi_disp:dsi_panel_parse_cell_id_read_config [msm_drm]] [I]cell_id_info after command parsing failed
+01-11 07:06:39.481   398   398 I         : [mi_disp:dsi_panel_parse_wp_reg_read_config [msm_drm]] [I]wp_info pre command parsing failed
+01-11 07:06:39.516   398   398 I         : [drm:_sde_rm_hw_blk_create_new:898] failed to init hw-fences, disabling hw-fences
+01-11 07:06:40.287    87    87 E [07:06:40:282-E][   87][mca_connector_antiburn]connector_antiburn_get_temp_increase_rate: 142 timestamp is error, time_gap is 0, current time is 2785997915, last time is 2785997915
+01-11 07:06:40.413   221   221 E [07:06:40:408-E][  221][qcom_subpmic]qcom_subpmic_sync_cfg_work: 219 Failed to send cp state, rc=-1
+01-11 07:06:40.554     1     1 W init    : DM_DEV_STATUS failed for system_ext_a: No such device or address
+01-11 07:06:40.554     1     1 W init    : DM_DEV_STATUS failed for system_ext_a: No such device or address
+01-11 07:06:40.554     1     1 W init    : DM_DEV_STATUS failed for product_a: No such device or address
+01-11 07:06:40.554     1     1 W init    : DM_DEV_STATUS failed for product_a: No such device or address
+01-11 07:06:40.583     1     1 W init    : Couldn't load property file '/system/build.prop': open() failed: No such file or directory
+01-11 07:06:40.673   460   460 W logd    : libprocessgroup: Controller freezer is not found
+01-11 07:06:40.685   469   469 E vendor.hardware.vibratorfeature: open /sys/class/leds/vibrator/activate failed, errno = 2
+01-11 07:06:40.685   469   469 E vendor.xiaomi.hardware.vibratorfeature.service: sys path  not found.
+01-11 07:06:40.685   469   469 E DynamicEffectDevice: sys path  not found.
+01-11 07:06:40.685   469   469 E DynamicEffectDevice: read custom_wave_id failed: , errno = -1, fd = -1
+01-11 07:06:40.685   469   469 E vendor.xiaomi.hardware.vibratorfeature.service: sys path  not found.
+01-11 07:06:40.686   469   469 E vendor.xiaomi.hardware.vibratorfeature.service: Failed to open /f0_value
+01-11 07:06:40.686   469   469 E cutils-trace: Error opening trace file: No such file or directory (2)
+01-11 07:06:40.686   469   474 E DynamicEffectDevice: ioctl EVIOCSFF failed, errno = -22
+01-11 07:06:40.691   466   466 E cutils-trace: Error opening trace file: No such file or directory (2)
+01-11 07:06:40.691   474   474 E qcom-hv-haptics c42d000.qcom,spmi: qcom,pmih010x@7:qcom,hv-haptics@f000: Upload periodic effect failed rc=-22
+01-11 07:06:40.688   471   471 E cutils-trace: Error opening trace file: No such file or directory (2)
+01-11 07:06:40.687   470   470 I keystore2: type=1400 audit(0.0:44): avc:  denied  { read } for  name="u:object_r:keystore_crash_prop:s0" dev="tmpfs" ino=205 scontext=u:r:recovery:s0 tcontext=u:object_r:keystore_crash_prop:s0 tclass=file permissive=1
+01-11 07:06:40.687   470   470 I keystore2: type=1400 audit(0.0:45): avc:  denied  { open } for  path="/dev/__properties__/u:object_r:keystore_crash_prop:s0" dev="tmpfs" ino=205 scontext=u:r:recovery:s0 tcontext=u:object_r:keystore_crash_prop:s0 tclass=file permissive=1
+01-11 07:06:40.687   470   470 I keystore2: type=1400 audit(0.0:46): avc:  denied  { getattr } for  path="/dev/__properties__/u:object_r:keystore_crash_prop:s0" dev="tmpfs" ino=205 scontext=u:r:recovery:s0 tcontext=u:object_r:keystore_crash_prop:s0 tclass=file permissive=1
+01-11 07:06:40.687   470   470 I keystore2: type=1400 audit(0.0:47): avc:  denied  { map } for  path="/dev/__properties__/u:object_r:keystore_crash_prop:s0" dev="tmpfs" ino=205 scontext=u:r:recovery:s0 tcontext=u:object_r:keystore_crash_prop:s0 tclass=file permissive=1
+01-11 07:06:40.687     1     1 I unknown : type=1107 audit(0.0:49): uid=0 auid=4294967295 ses=4294967295 subj=u:r:init:s0 msg='avc:  denied  { set } for property=keystore.crash_count pid=470 uid=0 gid=1017 scontext=u:r:recovery:s0 tcontext=u:object_r:keystore_crash_prop:s0 tclass=property_service permissive=1'
+01-11 07:06:40.690   466   476 W libc    : Unable to set property "ctl.interface_start" to "aidl/android.hardware.secure_element.ISecureElement/eSE1": error code: 0x20
+01-11 07:06:40.690   470   477 E cutils-trace: Error opening trace file: No such file or directory (2)
+01-11 07:06:40.691   462   462 E cutils-trace: Error opening trace file: No such file or directory (2)
+01-11 07:06:40.692   475   475 E ssgtzd  : Save diag info feature not supported , error dlopen failed: library "libSaveQTEEDiag.so" not found
+01-11 07:06:40.692   475   475 E ssgtzd  : Load embedded app `rtice` failed: 16 (IAppLoader_ERROR_ALREADY_LOADED INT32_C(16))
+01-11 07:06:40.692   475   475 E ssgtzd  : Load embedded app `qwes` failed: 16 (IAppLoader_ERROR_ALREADY_LOADED INT32_C(16))
+01-11 07:06:40.697   475   475 E ssgtzd  : Failed to open file /vendor/firmware_mnt/image/qwes.mbn: No such file or directory (2)
+01-11 07:06:40.697   475   475 E ssgtzd  : Failed to open file /vendor/firmware/image/qwes.mbn: No such file or directory (2)
+01-11 07:06:40.697   475   475 E ssgtzd  : Failed to open file /vendor/firmware_mnt/image/haventkn.mbn: No such file or directory (2)
+01-11 07:06:40.697   475   475 E ssgtzd  : Failed to open file /vendor/firmware/image/haventkn.mbn: No such file or directory (2)
+01-11 07:06:40.697   475   475 E ssgtzd  : Failed to open file /vendor/firmware_mnt/image/tzsc.mbn: No such file or directory (2)
+01-11 07:06:40.698   475   475 E qwes    : Failed to stat /vendor/etc/sec_channel.rc
+01-11 07:06:40.700   475   475 E qwesd   : wake_lock open failed
+01-11 07:06:40.700   475   475 E qwesd   : Failed init wakelock result: 1, errno: 13
+01-11 07:06:40.701   475   509 E qwes    : Failed to create directory /data/vendor
+01-11 07:06:40.701   475   509 E qwes    : Failed to create directory /data/vendor/qwes
+01-11 07:06:40.701   475   511 E qwesd   : Wakelock acquisition failed
+01-11 07:06:40.701   475   511 E qwesd   : Wakelock acquisition failed
+01-11 07:06:40.702   475   509 E qwes    : Failed to stat /vendor/etc/qwesd.rc
+01-11 07:06:40.703   475   509 E qwes    : Failed to stat /vendor/etc/qwesd.rc
+01-11 07:06:40.708   487   487 W healthd : batteryStateOfHealthPath not found
+01-11 07:06:40.708   487   487 W healthd : batteryHealthStatusPath not found
+01-11 07:06:40.708   487   487 W healthd : batteryManufacturingDatePath not found
+01-11 07:06:40.708   487   487 W healthd : batteryFirstUsageDatePath not found
+01-11 07:06:40.708   487   487 W healthd : chargingStatePath not found
+01-11 07:06:40.708   487   487 W healthd : chargingPolicyPath not found
+01-11 07:06:40.704   475   509 E qwes    : Failed to stat /vendor/etc/qwesd.rc
+01-11 07:06:40.704   475   509 E qwesd   : Failed to get socket for qwesd
+01-11 07:06:40.704   475   509 E qwesd   : Failed to initialize Mink Service (no-sync)
+01-11 07:06:40.704   475   529 E qwesd   : Wakelock acquisition failed
+01-11 07:06:40.706   499   499 E cutils-trace: Error opening trace file: No such file or directory (2)
+--------- beginning of crash
+01-11 07:06:40.707   535   535 F linker  : CANNOT LINK EXECUTABLE "/odm/bin/hw/android.hardware.weaver-service": library "libcxx.so" not found: needed by main executable
+01-11 07:06:40.708   498   498 E GPQeSE-HAL: Failed on initalize eSE TA
+01-11 07:06:40.710   475   529 E qwes    : Failed to stat /vendor/etc/qwesd.rc
+01-11 07:06:40.742   475   511 E qwesd   : IHlosDaemon_registerTimeOutCB failed 1
+01-11 07:06:40.743   475   511 E qwesd   : Failed to create qwes TA service and registerCB.
+02-28 11:01:35.003   480   480 W libc    : Unable to set property "ro.product.device" to "annibale": error code: 0xb
+02-28 11:01:35.011   480   480 W libc    : Unable to set property "ro.fastbootd.available" to "1": error code: 0xb
+01-11 07:06:40.002     1     1 E udc a600000.dwc3: failed to start g1: -77
+01-11 07:06:40.002     1     1 W configfs-gadget.g1: probe of gadget.0 failed with error -77
+01-11 07:06:40.002     1     1 E udc a600000.dwc3: failed to start g1: -77
+01-11 07:06:40.002     1     1 W configfs-gadget.g1: probe of gadget.0 failed with error -77
+02-28 12:59:51.280    88    88 E qcom,sn-nci 1-0028: NxpDrv: error reading NFC VDDIO min and max value
+02-28 12:59:51.280    88    88 E qcom,sn-nci 1-0028: NxpDrv: error reading NFC current value
+02-28 12:59:51.414   294   294 E [12:59:51:409-E][  294][qcom_subpmic]qcom_subpmic_update_usb_type_work: 159 Failed to read usb_online rc=-1
+02-28 12:59:51.496   480   480 W goodix_ts.0: loading /odm/firmware/o8/goodix_cfg_group_annibale.bin failed with error -40
+02-28 12:59:51.496   480   480 W goodix_ts.0: Direct firmware load for goodix_cfg_group_annibale.bin failed with error -2
+02-28 12:59:51.541   294   294 E [12:59:51:537-E][  294][qcom_subpmic]qcom_subpmic_sync_cfg_work: 219 Failed to send cp state, rc=-1
+02-28 12:59:51.704   480   480 W goodix_ts.0: loading /odm/firmware/o8/goodix_cfg_group_annibale.bin failed with error -40
+02-28 12:59:51.704   480   480 W goodix_ts.0: Direct firmware load for goodix_cfg_group_annibale.bin failed with error -2
+02-28 12:59:51.784   461   461 E cutils-trace: Error opening trace file: No such file or directory (2)
+02-28 12:59:51.793   466   574 W libc    : Unable to set property "ctl.interface_start" to "aidl/android.hardware.secure_element.ISecureElement/eSE1": error code: 0x20
+02-28 12:59:51.912   480   480 W goodix_ts.0: loading /odm/firmware/o8/goodix_cfg_group_annibale.bin failed with error -40
+02-28 12:59:51.912   480   480 W goodix_ts.0: Direct firmware load for goodix_cfg_group_annibale.bin failed with error -2
+02-28 12:59:52.120   480   480 I [GTP_E][goodix_read_cfg_bin:120]: failed get cfg bin[goodix_cfg_group_annibale.bin] error:-2
+02-28 12:59:52.120   480   480 I [GTP_E][goodix_get_config_data:314]: failed get valid config bin data
+02-28 12:59:52.120   480   480 W goodix_ts.0: loading /odm/firmware/o8/goodix_firmware_annibale.bin failed with error -40
+02-28 12:59:52.120   480   480 W goodix_ts.0: Direct firmware load for goodix_firmware_annibale.bin failed with error -2
+02-28 12:59:52.328   480   480 W goodix_ts.0: loading /odm/firmware/o8/goodix_firmware_annibale.bin failed with error -40
+02-28 12:59:52.328   480   480 W goodix_ts.0: Direct firmware load for goodix_firmware_annibale.bin failed with error -2
+02-28 12:59:52.538   480   480 W goodix_ts.0: loading /odm/firmware/o8/goodix_firmware_annibale.bin failed with error -40
+02-28 12:59:52.539   480   480 W goodix_ts.0: Direct firmware load for goodix_firmware_annibale.bin failed with error -2
+02-28 12:59:52.564   243   243 E [12:59:52:559-E][  243][qcom_subpmic]qcom_subpmic_sync_cfg_work: 219 Failed to send cp state, rc=-1
+02-28 12:59:52.746   480   480 I [GTP_E][goodix_fw_update_thread:1329]: fw update failed, -2
+02-28 12:59:52.746   480   480 I [GTP_E][goodix_start_later_init:4152]: failed do fw update
+02-28 12:59:52.746   480   480 I [MI_TP_I][xiaomi_touch_mievent_report_str:1090]: code:912001002,fault_name:TpFirmwareLoadFail,panel_id:0,vendor_name:goodix
+02-28 12:59:52.784   231   231 E adsp-loader soc: qcom,msm-adsp-loader: adsp_load_fw: failed to read adsp state
+02-28 12:59:52.784   231   231 E adsp-loader soc: qcom,msm-adsp-loader: adsp_load_fw: Q6 image loading failed
+02-28 12:59:52.792   466   582 W libc    : Unable to set property "ctl.interface_start" to "aidl/android.hardware.secure_element.ISecureElement/eSE1": error code: 0x20
+02-28 12:59:52.798   581   581 E ListenerMngr: Init dlopen(libops.so, RLTD_NOW) is failed.... dlopen failed: cannot locate symbol "_ZN7android26openDeclaredPassthroughHalERKNS_8String16ES2_i" referenced by "/system/lib64/libbinder_ndk.so"...
+02-28 12:59:52.798   581   581 E QSEECOMD: : ERROR: Failed to start listner services.
+02-28 12:59:52.920   419   419 I [drm:dsi_display_enable [msm_drm]] [msm-dsi-info]: [qcom,mdss_dsi_p11_42_0d_0a_dsc_cmd] DSI display read panel build id failed
+02-28 12:59:53.285   468   468 F libc    : Fatal signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr 0x0 in tid 468 (touch_report), pid 468 (touch_report)
+02-28 12:59:53.287   603   603 F libc    : failed to exec crash_dump helper: No such file or directory
+02-28 12:59:53.288   468   468 F libc    : crash_dump helper failed to exec, or was killed
+02-28 12:59:53.288   468   468 F libc    : failed to wait for crash_dump helper: No child processes
+02-28 12:59:53.428   294   294 E [12:59:53:423-E][  294][qcom_subpmic]qcom_subpmic_update_usb_type_work: 159 Failed to read usb_online rc=-1
+02-28 12:59:53.588   243   243 E [12:59:53:583-E][  243][qcom_subpmic]qcom_subpmic_sync_cfg_work: 219 Failed to send cp state, rc=-1
+02-28 12:59:53.794   466   604 W libc    : Unable to set property "ctl.interface_start" to "aidl/android.hardware.secure_element.ISecureElement/eSE1": error code: 0x20
+02-28 12:59:54.126   480   480 E cutils-trace: Error opening trace file: No such file or directory (2)
+02-28 12:59:54.127   466   605 W libc    : Unable to set property "ctl.interface_start" to "aidl/android.system.keystore2.IKeystoreService/default": error code: 0x20
+02-28 12:59:54.265   618   618 E exFAT-fs (dm-6): failed to read boot sector
+02-28 12:59:54.265   618   618 E exFAT-fs (dm-6): failed to recognize exfat type
+02-28 12:59:54.398   639   639 E exFAT-fs (dm-3): failed to read boot sector
+02-28 12:59:54.398   639   639 E exFAT-fs (dm-3): failed to recognize exfat type
+02-28 12:59:54.612   243   243 E [12:59:54:607-E][  243][qcom_subpmic]qcom_subpmic_sync_cfg_work: 219 Failed to send cp state, rc=-1
+02-28 12:59:54.795   466   675 W libc    : Unable to set property "ctl.interface_start" to "aidl/android.hardware.secure_element.ISecureElement/eSE1": error code: 0x20
+02-28 12:59:55.129   466   676 W libc    : Unable to set property "ctl.interface_start" to "aidl/android.system.keystore2.IKeystoreService/default": error code: 0x20
+02-28 12:59:55.444   243   243 E [12:59:55:439-E][  243][qcom_subpmic]qcom_subpmic_update_usb_type_work: 159 Failed to read usb_online rc=-1
+02-28 12:59:55.636   243   243 E [12:59:55:631-E][  243][qcom_subpmic]qcom_subpmic_sync_cfg_work: 219 Failed to send cp state, rc=-1
+02-28 12:59:55.795   678   678 F libc    : Fatal signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr 0x0 in tid 678 (touch_report), pid 678 (touch_report)
+02-28 12:59:55.796   466   679 W libc    : Unable to set property "ctl.interface_start" to "aidl/android.hardware.secure_element.ISecureElement/eSE1": error code: 0x20
+02-28 12:59:55.797   681   681 F libc    : failed to exec crash_dump helper: No such file or directory
+02-28 12:59:55.798   678   678 F libc    : crash_dump helper failed to exec, or was killed
+02-28 12:59:55.798   678   678 F libc    : failed to wait for crash_dump helper: No child processes
+02-28 12:59:55.801   475   488 E sec_channel  : Modemcomm: Init Instance on handle:0 failed with -3 
+02-28 12:59:55.801   475   488 E sec_channel  : Modemcomm: Failed to get handle of SSGQMSCA service
+02-28 12:59:55.815   683   683 F linker  : CANNOT LINK EXECUTABLE "/odm/bin/hw/android.hardware.weaver-service": library "libcxx.so" not found: needed by main executable
+02-28 12:59:55.833   470   470 E keystore2: Failed to create service android.system.keystore2.IKeystoreService/default because of system/security/keystore2/src/service.rs:69: Trying to construct mandatory security level TEE.
+02-28 12:59:55.833   470   470 E keystore2:     3: Binder transaction error NAME_NOT_FOUND.
+02-28 12:59:55.833   470   477 W keystore2: system/security/keystore2/src/shared_secret_negotiation.rs:170 - Unable to connect "android.hardware.security.sharedsecret.ISharedSecret/default" with error:
+02-28 12:59:55.833   470   470 F libc    : Fatal signal 6 (SIGABRT), code -1 (SI_QUEUE) in tid 470 (binder:470_2), pid 470 (binder:470_2)
+02-28 12:59:55.834   697   697 F libc    : failed to exec crash_dump helper: No such file or directory
+02-28 12:59:55.835   470   470 F libc    : crash_dump helper failed to exec, or was killed
+02-28 12:59:55.835   470   470 F libc    : failed to wait for crash_dump helper: No child processes
+02-28 12:59:55.839   682   687 E SmcInvoke_MinkDescriptor: mem obj with id :10 not found in list
+02-28 12:59:55.839   682   682 E QSEECOMPAT: load_app:name 05B04A44-BF30-42DF-9E2F-B366B980ED19 Error 12 
+02-28 12:59:55.839   682   682 E QSEECOMPAT: QSEECom_start_app: load app failed with ret : -1
+02-28 12:59:55.839   682   682 D GPQeSE-HAL: 05B04A44-BF30-42DF-9E2F-B366B980ED19 application loading failed
+02-28 12:59:55.839   682   682 E GPQeSE-HAL: Failed on initalize eSE TA
+02-28 12:59:55.883   699   699 I keystore2: type=1400 audit(0.0:171): avc:  denied  { read } for  name="u:object_r:keystore_crash_prop:s0" dev="tmpfs" ino=205 scontext=u:r:recovery:s0 tcontext=u:object_r:keystore_crash_prop:s0 tclass=file permissive=1
+02-28 12:59:55.883   699   699 I keystore2: type=1400 audit(0.0:172): avc:  denied  { open } for  path="/dev/__properties__/u:object_r:keystore_crash_prop:s0" dev="tmpfs" ino=205 scontext=u:r:recovery:s0 tcontext=u:object_r:keystore_crash_prop:s0 tclass=file permissive=1
+02-28 12:59:55.883   699   699 I keystore2: type=1400 audit(0.0:173): avc:  denied  { getattr } for  path="/dev/__properties__/u:object_r:keystore_crash_prop:s0" dev="tmpfs" ino=205 scontext=u:r:recovery:s0 tcontext=u:object_r:keystore_crash_prop:s0 tclass=file permissive=1
+02-28 12:59:55.883   699   699 I keystore2: type=1400 audit(0.0:174): avc:  denied  { map } for  path="/dev/__properties__/u:object_r:keystore_crash_prop:s0" dev="tmpfs" ino=205 scontext=u:r:recovery:s0 tcontext=u:object_r:keystore_crash_prop:s0 tclass=file permissive=1
+02-28 12:59:55.890   699   700 E cutils-trace: Error opening trace file: No such file or directory (2)
+02-28 12:59:56.129   466   703 W libc    : Unable to set property "ctl.interface_start" to "aidl/android.system.keystore2.IKeystoreService/default": error code: 0x20
+02-28 12:59:56.660   243   243 E [12:59:56:655-E][  243][qcom_subpmic]qcom_subpmic_sync_cfg_work: 219 Failed to send cp state, rc=-1
+02-28 12:59:56.797   466   705 W libc    : Unable to set property "ctl.interface_start" to "aidl/android.hardware.secure_element.ISecureElement/eSE1": error code: 0x20
+02-28 12:59:57.130   466   706 W libc    : Unable to set property "ctl.interface_start" to "aidl/android.system.keystore2.IKeystoreService/default": error code: 0x20
+02-28 12:59:57.460   243   243 E [12:59:57:455-E][  243][qcom_subpmic]qcom_subpmic_update_usb_type_work: 159 Failed to read usb_online rc=-1
+02-28 12:59:57.684   243   243 E [12:59:57:679-E][  243][qcom_subpmic]qcom_subpmic_sync_cfg_work: 219 Failed to send cp state, rc=-1
+02-28 12:59:57.798   466   708 W libc    : Unable to set property "ctl.interface_start" to "aidl/android.hardware.secure_element.ISecureElement/eSE1": error code: 0x20
+02-28 12:59:57.917   750   750 E cutils-trace: Error opening trace file: No such file or directory (2)
+02-28 12:59:57.925   677   677 E cutils-trace: Error opening trace file: No such file or directory (2)
+02-28 12:59:58.131   466   761 W libc    : Unable to set property "ctl.interface_start" to "aidl/android.system.keystore2.IKeystoreService/default": error code: 0x20
+02-28 12:59:58.708   243   243 E [12:59:58:703-E][  243][qcom_subpmic]qcom_subpmic_sync_cfg_work: 219 Failed to send cp state, rc=-1
+02-28 12:59:58.799   466   762 W libc    : Unable to set property "ctl.interface_start" to "aidl/android.hardware.secure_element.ISecureElement/eSE1": error code: 0x20
+02-28 12:59:59.092   379   379 E [12:59:59:087-E][  379][mca_voter]mca_vote: 570 callback failed with rc=-1
+02-28 12:59:59.092   379   379 E [12:59:59:087-E][  379][mca_voter]mca_vote: 570 callback failed with rc=-1
+02-28 12:59:59.133   466   763 W libc    : Unable to set property "ctl.interface_start" to "aidl/android.system.keystore2.IKeystoreService/default": error code: 0x20
+02-28 12:59:59.476   243   243 E [12:59:59:471-E][  243][qcom_subpmic]qcom_subpmic_update_usb_type_work: 159 Failed to read usb_online rc=-1
+02-28 12:59:59.732   243   243 E [12:59:59:727-E][  243][qcom_subpmic]qcom_subpmic_sync_cfg_work: 219 Failed to send cp state, rc=-1
+02-28 12:59:59.800   466   764 W libc    : Unable to set property "ctl.interface_start" to "aidl/android.hardware.secure_element.ISecureElement/eSE1": error code: 0x20
+02-28 13:00:00.134   466   765 W libc    : Unable to set property "ctl.interface_start" to "aidl/android.system.keystore2.IKeystoreService/default": error code: 0x20
+02-28 13:00:00.756   243   243 E [13:00:00:751-E][  243][qcom_subpmic]qcom_subpmic_sync_cfg_work: 219 Failed to send cp state, rc=-1
+02-28 13:00:00.800   766   766 F libc    : Fatal signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr 0x0 in tid 766 (touch_report), pid 766 (touch_report)
+02-28 13:00:00.801   466   768 W libc    : Unable to set property "ctl.interface_start" to "aidl/android.hardware.secure_element.ISecureElement/eSE1": error code: 0x20
+02-28 13:00:00.801   769   769 F libc    : failed to exec crash_dump helper: No such file or directory
+02-28 13:00:00.802   766   766 F libc    : crash_dump helper failed to exec, or was killed
+02-28 13:00:00.802   766   766 F libc    : failed to wait for crash_dump helper: No child processes
+02-28 13:00:00.802   475   488 E sec_channel  : Modemcomm: Init Instance on handle:0 failed with -3 
+02-28 13:00:00.802   475   488 E sec_channel  : Modemcomm: Failed to get handle of SSGSCA service as well - exiting
+02-28 13:00:00.819   771   771 F linker  : CANNOT LINK EXECUTABLE "/odm/bin/hw/android.hardware.weaver-service": library "libcxx.so" not found: needed by main executable
+02-28 13:00:00.838   770   776 E SmcInvoke_MinkDescriptor: mem obj with id :10 not found in list
+02-28 13:00:00.838   770   770 E QSEECOMPAT: load_app:name 05B04A44-BF30-42DF-9E2F-B366B980ED19 Error 12 
+02-28 13:00:00.838   770   770 E QSEECOMPAT: QSEECom_start_app: load app failed with ret : -1
+02-28 13:00:00.839   770   770 D GPQeSE-HAL: 05B04A44-BF30-42DF-9E2F-B366B980ED19 application loading failed
+02-28 13:00:00.839   770   770 E GPQeSE-HAL: Failed on initalize eSE TA
+02-28 13:00:01.135   466   777 W libc    : Unable to set property "ctl.interface_start" to "aidl/android.system.keystore2.IKeystoreService/default": error code: 0x20
+02-28 13:00:01.492   243   243 E [13:00:01:487-E][  243][qcom_subpmic]qcom_subpmic_update_usb_type_work: 159 Failed to read usb_online rc=-1
+02-28 13:00:01.780   243   243 E [13:00:01:775-E][  243][qcom_subpmic]qcom_subpmic_sync_cfg_work: 219 Failed to send cp state, rc=-1
+02-28 13:00:01.802   466   778 W libc    : Unable to set property "ctl.interface_start" to "aidl/android.hardware.secure_element.ISecureElement/eSE1": error code: 0x20
+02-28 13:00:02.136   466   779 W libc    : Unable to set property "ctl.interface_start" to "aidl/android.system.keystore2.IKeystoreService/default": error code: 0x20
+02-28 13:00:02.804   243   243 E [13:00:02:799-E][  243][qcom_subpmic]qcom_subpmic_sync_cfg_work: 219 Failed to send cp state, rc=-1
+02-28 13:00:02.803   466   780 W libc    : Unable to set property "ctl.interface_start" to "aidl/android.hardware.secure_element.ISecureElement/eSE1": error code: 0x20
+02-28 13:00:03.038   699   700 W keystore2: system/security/keystore2/src/shared_secret_negotiation.rs:170 - Unable to connect "android.hardware.security.sharedsecret.ISharedSecret/strongbox" with error:
+02-28 13:00:03.163   750   750 E KeymasterUtils: IKMHal_sendCmd failed with rsp_header->status: -28
+02-28 13:00:03.508   243   243 E [13:00:03:503-E][  243][qcom_subpmic]qcom_subpmic_update_usb_type_work: 159 Failed to read usb_online rc=-1
+02-28 13:00:03.804   466   789 W libc    : Unable to set property "ctl.interface_start" to "aidl/android.hardware.secure_element.ISecureElement/eSE1": error code: 0x20
+02-28 13:00:03.828   243   243 E [13:00:03:823-E][  243][qcom_subpmic]qcom_subpmic_sync_cfg_work: 219 Failed to send cp state, rc=-1
+02-28 13:00:04.466   750   750 E KeymasterUtils: IKMHal_sendCmd failed with rsp_header->status: -28
+02-28 13:00:04.515   707   725 E QC-time-services: Lib:time_genoff_operation: Connection failed !!
+02-28 13:00:04.606   750   750 E KeymasterUtils: IKMHal_sendCmd failed with rsp_header->status: -28
+02-28 13:00:04.805   466   792 W libc    : Unable to set property "ctl.interface_start" to "aidl/android.hardware.secure_element.ISecureElement/eSE1": error code: 0x20
+02-28 13:00:04.852   243   243 E [13:00:04:847-E][  243][qcom_subpmic]qcom_subpmic_sync_cfg_work: 219 Failed to send cp state, rc=-1
+02-28 13:00:05.524   243   243 E [13:00:05:519-E][  243][qcom_subpmic]qcom_subpmic_update_usb_type_work: 159 Failed to read usb_online rc=-1
+02-28 13:00:05.721   480   480 E recovery: Failed to read from /data/misc/vold/user_keys/ce/0/current/keymaster_key_blob: No such file or directory
+02-28 13:00:05.721   480   480 E recovery: decryptWithKeystoreKey failed
+02-28 13:00:05.721   480   480 E recovery: Failed to find working ce key for user 0
+02-28 13:00:05.753   499   499 E OmapiTransport: Failed to start omapiSeService null
+02-28 13:00:05.753   499   499 I OmapiTransport: Failed to send data, try to initialize connection SE connection
+02-28 13:00:05.753   499   499 E OmapiTransport: Failed to start omapiSeService null
+02-28 13:00:05.753   499   499 E OmapiTransport: Failed to send data, initialization not completed
+02-28 13:00:05.753   499   499 E weaver-impl: weaver-impl.cpp::92 GetSlots Failed to perform getSlot Request
+02-28 13:00:05.753   499   499 E weaver-impl: weaver-impl.cpp::104 GetSlots Failed Parsing getSlot Response
+02-28 13:00:05.784   480   480 W SELinux : security_context_str_to_sid (u:object_r:bt_firmware_file:s0 wait) failed with errno=-22
+02-28 13:00:05.788   480   480 W SELinux : security_context_str_to_sid (u:object_r:firmware_file:s0 wait) failed with errno=-22
+02-28 13:00:05.790   797   797 F libc    : Fatal signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr 0x0 in tid 797 (touch_report), pid 797 (touch_report)
+02-28 13:00:05.790   799   799 F libc    : failed to exec crash_dump helper: No such file or directory
+02-28 13:00:05.790   797   797 F libc    : crash_dump helper failed to exec, or was killed
+02-28 13:00:05.790   797   797 F libc    : failed to wait for crash_dump helper: No child processes
+02-28 13:00:05.805   466   800 W libc    : Unable to set property "ctl.interface_start" to "aidl/android.hardware.secure_element.ISecureElement/eSE1": error code: 0x20
+02-28 13:00:05.816   806   806 F linker  : CANNOT LINK EXECUTABLE "/odm/bin/hw/android.hardware.weaver-service": library "libcxx.so" not found: needed by main executable
+02-28 13:00:05.825   801   801 E QSEECOMPAT: load_app:name 05B04A44-BF30-42DF-9E2F-B366B980ED19 Error 12 
+02-28 13:00:05.825   801   805 E SmcInvoke_MinkDescriptor: mem obj with id :10 not found in list
+02-28 13:00:05.825   801   801 E QSEECOMPAT: QSEECom_start_app: load app failed with ret : -1
+02-28 13:00:05.825   801   801 D GPQeSE-HAL: 05B04A44-BF30-42DF-9E2F-B366B980ED19 application loading failed
+02-28 13:00:05.825   801   801 E GPQeSE-HAL: Failed on initalize eSE TA
+02-28 13:00:05.876   243   243 E [13:00:05:871-E][  243][qcom_subpmic]qcom_subpmic_sync_cfg_work: 219 Failed to send cp state, rc=-1
+02-28 13:00:06.803   475   488 E sec_channel  : Modemcomm: Init Instance on handle:0 failed with -3 
+02-28 13:00:06.803   475   488 E sec_channel  : Modemcomm: Failed to get handle of SSGQMSCA service
+02-28 13:00:06.805   466   808 W libc    : Unable to set property "ctl.interface_start" to "aidl/android.hardware.secure_element.ISecureElement/eSE1": error code: 0x20
+02-28 13:00:06.900   243   243 E [13:00:06:895-E][  243][qcom_subpmic]qcom_subpmic_sync_cfg_work: 219 Failed to send cp state, rc=-1
+02-28 13:00:07.540   243   243 E [13:00:07:535-E][  243][qcom_subpmic]qcom_subpmic_update_usb_type_work: 159 Failed to read usb_online rc=-1
+02-28 13:00:07.651   480   480 I recovery: type=1400 audit(0.0:2402): avc:  denied  { open } for  path="/dev/__properties__/u:object_r:crashrecovery_prop:s0" dev="tmpfs" ino=89 scontext=u:r:recovery:s0 tcontext=u:object_r:crashrecovery_prop:s0 tclass=file permissive=1
+02-28 13:00:07.651   480   480 I recovery: type=1400 audit(0.0:2403): avc:  denied  { getattr } for  path="/dev/__properties__/u:object_r:crashrecovery_prop:s0" dev="tmpfs" ino=89 scontext=u:r:recovery:s0 tcontext=u:object_r:crashrecovery_prop:s0 tclass=file permissive=1
+02-28 13:00:07.651   480   480 I recovery: type=1400 audit(0.0:2404): avc:  denied  { map } for  path="/dev/__properties__/u:object_r:crashrecovery_prop:s0" dev="tmpfs" ino=89 scontext=u:r:recovery:s0 tcontext=u:object_r:crashrecovery_prop:s0 tclass=file permissive=1
+02-28 13:00:07.805   466   837 W libc    : Unable to set property "ctl.interface_start" to "aidl/android.hardware.secure_element.ISecureElement/eSE1": error code: 0x20
+02-28 13:00:07.924   243   243 E [13:00:07:919-E][  243][qcom_subpmic]qcom_subpmic_sync_cfg_work: 219 Failed to send cp state, rc=-1
+02-28 13:00:08.271   924   924 I getprop : type=1400 audit(0.0:2728): avc:  denied  { open } for  path="/dev/__properties__/u:object_r:crashrecovery_prop:s0" dev="tmpfs" ino=89 scontext=u:r:recovery:s0 tcontext=u:object_r:crashrecovery_prop:s0 tclass=file permissive=1
+02-28 13:00:08.271   924   924 I getprop : type=1400 audit(0.0:2729): avc:  denied  { getattr } for  path="/dev/__properties__/u:object_r:crashrecovery_prop:s0" dev="tmpfs" ino=89 scontext=u:r:recovery:s0 tcontext=u:object_r:crashrecovery_prop:s0 tclass=file permissive=1
+02-28 13:00:08.271   924   924 I getprop : type=1400 audit(0.0:2730): avc:  denied  { map } for  path="/dev/__properties__/u:object_r:crashrecovery_prop:s0" dev="tmpfs" ino=89 scontext=u:r:recovery:s0 tcontext=u:object_r:crashrecovery_prop:s0 tclass=file permissive=1
+02-28 13:00:08.282   480   480 W libc    : Unable to set property "ro.build.version.incremental" to "OS3.0.2.0.WPKIDXM": error code: 0xb
+02-28 13:00:08.287   480   480 W libc    : Unable to set property "ro.build.fingerprint" to ""Xiaomi/mivendor/mivendor:15/AQ3A.250226.002/OS3.0.2.0.WPKIDXM:user/release-keys"": error code: 0xb
+02-28 13:00:08.807   466   999 W libc    : Unable to set property "ctl.interface_start" to "aidl/android.hardware.secure_element.ISecureElement/eSE1": error code: 0x20
+02-28 13:00:08.948   243   243 E [13:00:08:943-E][  243][qcom_subpmic]qcom_subpmic_sync_cfg_work: 219 Failed to send cp state, rc=-1
+02-28 13:00:09.056   699   700 W keystore2: system/security/keystore2/src/shared_secret_negotiation.rs:170 - Unable to connect "android.hardware.security.sharedsecret.ISharedSecret/strongbox" with error:
+02-28 13:00:09.556   243   243 E [13:00:09:551-E][  243][qcom_subpmic]qcom_subpmic_update_usb_type_work: 159 Failed to read usb_online rc=-1
+02-28 13:00:09.808   466  1022 W libc    : Unable to set property "ctl.interface_start" to "aidl/android.hardware.secure_element.ISecureElement/eSE1": error code: 0x20
+02-28 13:00:09.972   243   243 E [13:00:09:967-E][  243][qcom_subpmic]qcom_subpmic_sync_cfg_work: 219 Failed to send cp state, rc=-1
+02-28 13:00:10.806  1023  1023 F libc    : Fatal signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr 0x0 in tid 1023 (touch_report), pid 1023 (touch_report)
+02-28 13:00:10.807  1025  1025 F libc    : failed to exec crash_dump helper: No such file or directory
+02-28 13:00:10.808  1023  1023 F libc    : crash_dump helper failed to exec, or was killed
+02-28 13:00:10.808  1023  1023 F libc    : failed to wait for crash_dump helper: No child processes
+02-28 13:00:10.809   466  1026 W libc    : Unable to set property "ctl.interface_start" to "aidl/android.hardware.secure_element.ISecureElement/eSE1": error code: 0x20
+02-28 13:00:10.823  1028  1028 F linker  : CANNOT LINK EXECUTABLE "/odm/bin/hw/android.hardware.weaver-service": library "libcxx.so" not found: needed by main executable
+02-28 13:00:10.853  1027  1027 E QSEECOMPAT: load_app:name 05B04A44-BF30-42DF-9E2F-B366B980ED19 Error 12 
+02-28 13:00:10.853  1027  1033 E SmcInvoke_MinkDescriptor: mem obj with id :10 not found in list
+02-28 13:00:10.853  1027  1027 E QSEECOMPAT: QSEECom_start_app: load app failed with ret : -1
+02-28 13:00:10.854  1027  1027 D GPQeSE-HAL: 05B04A44-BF30-42DF-9E2F-B366B980ED19 application loading failed
+02-28 13:00:10.854  1027  1027 E GPQeSE-HAL: Failed on initalize eSE TA
+02-28 13:00:10.996   243   243 E [13:00:10:991-E][  243][qcom_subpmic]qcom_subpmic_sync_cfg_work: 219 Failed to send cp state, rc=-1
+02-28 13:00:11.572   243   243 E [13:00:11:567-E][  243][qcom_subpmic]qcom_subpmic_update_usb_type_work: 159 Failed to read usb_online rc=-1
+02-28 13:00:11.804   475   488 E sec_channel  : Modemcomm: Init Instance on handle:0 failed with -3 
+02-28 13:00:11.804   475   488 E sec_channel  : Modemcomm: Failed to get handle of SSGSCA service as well - exiting
+02-28 13:00:11.809   466  1034 W libc    : Unable to set property "ctl.interface_start" to "aidl/android.hardware.secure_element.ISecureElement/eSE1": error code: 0x20
+02-28 13:00:12.020   243   243 E [13:00:12:015-E][  243][qcom_subpmic]qcom_subpmic_sync_cfg_work: 219 Failed to send cp state, rc=-1
+02-28 13:00:12.809   466  1035 W libc    : Unable to set property "ctl.interface_start" to "aidl/android.hardware.secure_element.ISecureElement/eSE1": error code: 0x20
+02-28 13:00:13.044   243   243 E [13:00:13:039-E][  243][qcom_subpmic]qcom_subpmic_sync_cfg_work: 219 Failed to send cp state, rc=-1
+02-28 13:00:13.588   243   243 E [13:00:13:583-E][  243][qcom_subpmic]qcom_subpmic_update_usb_type_work: 159 Failed to read usb_online rc=-1
+02-28 13:00:13.810   466  1036 W libc    : Unable to set property "ctl.interface_start" to "aidl/android.hardware.secure_element.ISecureElement/eSE1": error code: 0x20
+02-28 13:00:14.068   243   243 E [13:00:14:063-E][  243][qcom_subpmic]qcom_subpmic_sync_cfg_work: 219 Failed to send cp state, rc=-1
+02-28 13:00:14.811   466  1037 W libc    : Unable to set property "ctl.interface_start" to "aidl/android.hardware.secure_element.ISecureElement/eSE1": error code: 0x20
+02-28 13:00:15.073   699   700 W keystore2: system/security/keystore2/src/shared_secret_negotiation.rs:170 - Unable to connect "android.hardware.security.sharedsecret.ISharedSecret/strongbox" with error:
+02-28 13:00:15.092   243   243 E [13:00:15:087-E][  243][qcom_subpmic]qcom_subpmic_sync_cfg_work: 219 Failed to send cp state, rc=-1
+02-28 13:00:15.604   243   243 E [13:00:15:599-E][  243][qcom_subpmic]qcom_subpmic_update_usb_type_work: 159 Failed to read usb_online rc=-1
+02-28 13:00:15.810  1038  1038 F libc    : Fatal signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr 0x0 in tid 1038 (touch_report), pid 1038 (touch_report)
+02-28 13:00:15.811  1041  1041 F libc    : failed to exec crash_dump helper: No such file or directory
+02-28 13:00:15.812  1038  1038 F libc    : crash_dump helper failed to exec, or was killed
+02-28 13:00:15.812  1038  1038 F libc    : failed to wait for crash_dump helper: No child processes
+02-28 13:00:15.816   466  1040 W libc    : Unable to set property "ctl.interface_start" to "aidl/android.hardware.secure_element.ISecureElement/eSE1": error code: 0x20
+02-28 13:00:15.824  1043  1043 F linker  : CANNOT LINK EXECUTABLE "/odm/bin/hw/android.hardware.weaver-service": library "libcxx.so" not found: needed by main executable
+02-28 13:00:15.845  1042  1042 E QSEECOMPAT: load_app:name 05B04A44-BF30-42DF-9E2F-B366B980ED19 Error 12 
+02-28 13:00:15.845  1042  1046 E SmcInvoke_MinkDescriptor: mem obj with id :10 not found in list
+02-28 13:00:15.845  1042  1042 E QSEECOMPAT: QSEECom_start_app: load app failed with ret : -1
+02-28 13:00:15.845  1042  1042 D GPQeSE-HAL: 05B04A44-BF30-42DF-9E2F-B366B980ED19 application loading failed
+02-28 13:00:15.845  1042  1042 E GPQeSE-HAL: Failed on initalize eSE TA
+02-28 13:00:16.116   243   243 E [13:00:16:111-E][  243][qcom_subpmic]qcom_subpmic_sync_cfg_work: 219 Failed to send cp state, rc=-1
+02-28 13:00:16.813   466  1049 W libc    : Unable to set property "ctl.interface_start" to "aidl/android.hardware.secure_element.ISecureElement/eSE1": error code: 0x20
+02-28 13:00:17.140   243   243 E [13:00:17:135-E][  243][qcom_subpmic]qcom_subpmic_sync_cfg_work: 219 Failed to send cp state, rc=-1
+02-28 13:00:17.620   243   243 E [13:00:17:615-E][  243][qcom_subpmic]qcom_subpmic_update_usb_type_work: 159 Failed to read usb_online rc=-1
+02-28 13:00:17.805   475   488 E sec_channel  : Modemcomm: Init Instance on handle:0 failed with -3 
+02-28 13:00:17.805   475   488 E sec_channel  : Modemcomm: Failed to get handle of SSGQMSCA service
+02-28 13:00:17.813   466  1050 W libc    : Unable to set property "ctl.interface_start" to "aidl/android.hardware.secure_element.ISecureElement/eSE1": error code: 0x20
+02-28 13:00:18.164   243   243 E [13:00:18:159-E][  243][qcom_subpmic]qcom_subpmic_sync_cfg_work: 219 Failed to send cp state, rc=-1
+02-28 13:00:18.813   466  1051 W libc    : Unable to set property "ctl.interface_start" to "aidl/android.hardware.secure_element.ISecureElement/eSE1": error code: 0x20
+02-28 13:00:19.188   243   243 E [13:00:19:183-E][  243][qcom_subpmic]qcom_subpmic_sync_cfg_work: 219 Failed to send cp state, rc=-1
+02-28 13:00:19.636   243   243 E [13:00:19:631-E][  243][qcom_subpmic]qcom_subpmic_update_usb_type_work: 159 Failed to read usb_online rc=-1
+02-28 13:00:19.814   466  1052 W libc    : Unable to set property "ctl.interface_start" to "aidl/android.hardware.secure_element.ISecureElement/eSE1": error code: 0x20
+02-28 13:00:20.212   243   243 E [13:00:20:207-E][  243][qcom_subpmic]qcom_subpmic_sync_cfg_work: 219 Failed to send cp state, rc=-1
+02-28 13:00:20.806  1053  1053 F libc    : Fatal signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr 0x0 in tid 1053 (touch_report), pid 1053 (touch_report)
+02-28 13:00:20.807  1055  1055 F libc    : failed to exec crash_dump helper: No such file or directory
+02-28 13:00:20.807  1053  1053 F libc    : crash_dump helper failed to exec, or was killed
+02-28 13:00:20.807  1053  1053 F libc    : failed to wait for crash_dump helper: No child processes
+02-28 13:00:20.815   466  1056 W libc    : Unable to set property "ctl.interface_start" to "aidl/android.hardware.secure_element.ISecureElement/eSE1": error code: 0x20
+02-28 13:00:20.825  1058  1058 F linker  : CANNOT LINK EXECUTABLE "/odm/bin/hw/android.hardware.weaver-service": library "libcxx.so" not found: needed by main executable
+02-28 13:00:20.843  1057  1057 E QSEECOMPAT: load_app:name 05B04A44-BF30-42DF-9E2F-B366B980ED19 Error 12 
+02-28 13:00:20.843  1057  1063 E SmcInvoke_MinkDescriptor: mem obj with id :10 not found in list
+02-28 13:00:20.843  1057  1057 E QSEECOMPAT: QSEECom_start_app: load app failed with ret : -1
+02-28 13:00:20.843  1057  1057 D GPQeSE-HAL: 05B04A44-BF30-42DF-9E2F-B366B980ED19 application loading failed
+02-28 13:00:20.844  1057  1057 E GPQeSE-HAL: Failed on initalize eSE TA
+02-28 13:00:21.088   699   700 W keystore2: system/security/keystore2/src/shared_secret_negotiation.rs:170 - Unable to connect "android.hardware.security.sharedsecret.ISharedSecret/strongbox" with error:
+02-28 13:00:21.236   243   243 E [13:00:21:231-E][  243][qcom_subpmic]qcom_subpmic_sync_cfg_work: 219 Failed to send cp state, rc=-1
+02-28 13:00:21.652   243   243 E [13:00:21:647-E][  243][qcom_subpmic]qcom_subpmic_update_usb_type_work: 159 Failed to read usb_online rc=-1
+02-28 13:00:21.815   466  1064 W libc    : Unable to set property "ctl.interface_start" to "aidl/android.hardware.secure_element.ISecureElement/eSE1": error code: 0x20
+02-28 13:00:22.260   243   243 E [13:00:22:255-E][  243][qcom_subpmic]qcom_subpmic_sync_cfg_work: 219 Failed to send cp state, rc=-1
+02-28 13:00:22.806   475   488 E sec_channel  : Modemcomm: Init Instance on handle:0 failed with -3 
+02-28 13:00:22.807   475   488 E sec_channel  : Modemcomm: Failed to get handle of SSGSCA service as well - exiting
+02-28 13:00:22.816   466  1065 W libc    : Unable to set property "ctl.interface_start" to "aidl/android.hardware.secure_element.ISecureElement/eSE1": error code: 0x20
+02-28 13:00:23.284   243   243 E [13:00:23:279-E][  243][qcom_subpmic]qcom_subpmic_sync_cfg_work: 219 Failed to send cp state, rc=-1
+02-28 13:00:23.668   243   243 E [13:00:23:663-E][  243][qcom_subpmic]qcom_subpmic_update_usb_type_work: 159 Failed to read usb_online rc=-1
+02-28 13:00:23.817   466  1066 W libc    : Unable to set property "ctl.interface_start" to "aidl/android.hardware.secure_element.ISecureElement/eSE1": error code: 0x20
+02-28 13:00:24.308   243   243 E [13:00:24:303-E][  243][qcom_subpmic]qcom_subpmic_sync_cfg_work: 219 Failed to send cp state, rc=-1
+02-28 13:00:24.817   466  1067 W libc    : Unable to set property "ctl.interface_start" to "aidl/android.hardware.secure_element.ISecureElement/eSE1": error code: 0x20
+02-28 13:00:25.332   243   243 E [13:00:25:327-E][  243][qcom_subpmic]qcom_subpmic_sync_cfg_work: 219 Failed to send cp state, rc=-1
+02-28 13:00:25.684   243   243 E [13:00:25:679-E][  243][qcom_subpmic]qcom_subpmic_update_usb_type_work: 159 Failed to read usb_online rc=-1
+02-28 13:00:25.817  1068  1068 F libc    : Fatal signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr 0x0 in tid 1068 (touch_report), pid 1068 (touch_report)
+02-28 13:00:25.818  1071  1071 F libc    : failed to exec crash_dump helper: No such file or directory
+02-28 13:00:25.819  1068  1068 F libc    : crash_dump helper failed to exec, or was killed
+02-28 13:00:25.819  1068  1068 F libc    : failed to wait for crash_dump helper: No child processes
+02-28 13:00:25.821   466  1070 W libc    : Unable to set property "ctl.interface_start" to "aidl/android.hardware.secure_element.ISecureElement/eSE1": error code: 0x20
+02-28 13:00:25.830  1073  1073 F linker  : CANNOT LINK EXECUTABLE "/odm/bin/hw/android.hardware.weaver-service": library "libcxx.so" not found: needed by main executable
+02-28 13:00:25.857  1072  1072 E QSEECOMPAT: load_app:name 05B04A44-BF30-42DF-9E2F-B366B980ED19 Error 12 
+02-28 13:00:25.857  1072  1077 E SmcInvoke_MinkDescriptor: mem obj with id :10 not found in list
+02-28 13:00:25.857  1072  1072 E QSEECOMPAT: QSEECom_start_app: load app failed with ret : -1
+02-28 13:00:25.858  1072  1072 D GPQeSE-HAL: 05B04A44-BF30-42DF-9E2F-B366B980ED19 application loading failed
+02-28 13:00:25.858  1072  1072 E GPQeSE-HAL: Failed on initalize eSE TA
+02-28 13:00:26.356   243   243 E [13:00:26:351-E][  243][qcom_subpmic]qcom_subpmic_sync_cfg_work: 219 Failed to send cp state, rc=-1
+02-28 13:00:26.819   466  1079 W libc    : Unable to set property "ctl.interface_start" to "aidl/android.hardware.secure_element.ISecureElement/eSE1": error code: 0x20
+02-28 13:00:27.104   699   700 W keystore2: system/security/keystore2/src/shared_secret_negotiation.rs:170 - Unable to connect "android.hardware.security.sharedsecret.ISharedSecret/strongbox" with error:
+02-28 13:00:27.380   243   243 E [13:00:27:375-E][  243][qcom_subpmic]qcom_subpmic_sync_cfg_work: 219 Failed to send cp state, rc=-1
+02-28 13:00:27.700   243   243 E [13:00:27:695-E][  243][qcom_subpmic]qcom_subpmic_update_usb_type_work: 159 Failed to read usb_online rc=-1
+02-28 13:00:27.819   466  1080 W libc    : Unable to set property "ctl.interface_start" to "aidl/android.hardware.secure_element.ISecureElement/eSE1": error code: 0x20
+02-28 13:00:28.404   243   243 E [13:00:28:399-E][  243][qcom_subpmic]qcom_subpmic_sync_cfg_work: 219 Failed to send cp state, rc=-1
+02-28 13:00:28.808   475   488 E sec_channel  : Modemcomm: Init Instance on handle:0 failed with -3 
+02-28 13:00:28.808   475   488 E sec_channel  : Modemcomm: Failed to get handle of SSGQMSCA service
+02-28 13:00:28.820   466  1084 W libc    : Unable to set property "ctl.interface_start" to "aidl/android.hardware.secure_element.ISecureElement/eSE1": error code: 0x20
+02-28 13:00:29.428   243   243 E [13:00:29:423-E][  243][qcom_subpmic]qcom_subpmic_sync_cfg_work: 219 Failed to send cp state, rc=-1
+02-28 13:00:29.716   243   243 E [13:00:29:711-E][  243][qcom_subpmic]qcom_subpmic_update_usb_type_work: 159 Failed to read usb_online rc=-1
+02-28 13:00:29.821   466  1085 W libc    : Unable to set property "ctl.interface_start" to "aidl/android.hardware.secure_element.ISecureElement/eSE1": error code: 0x20
+02-28 13:00:30.452   243   243 E [13:00:30:447-E][  243][qcom_subpmic]qcom_subpmic_sync_cfg_work: 219 Failed to send cp state, rc=-1
+02-28 13:00:30.821  1086  1086 F libc    : Fatal signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr 0x0 in tid 1086 (touch_report), pid 1086 (touch_report)
+02-28 13:00:30.822  1090  1090 F libc    : failed to exec crash_dump helper: No such file or directory
+02-28 13:00:30.823  1086  1086 F libc    : crash_dump helper failed to exec, or was killed
+02-28 13:00:30.824  1086  1086 F libc    : failed to wait for crash_dump helper: No child processes
+02-28 13:00:30.824   466  1088 W libc    : Unable to set property "ctl.interface_start" to "aidl/android.hardware.secure_element.ISecureElement/eSE1": error code: 0x20
+02-28 13:00:30.832  1091  1091 F linker  : CANNOT LINK EXECUTABLE "/odm/bin/hw/android.hardware.weaver-service": library "libcxx.so" not found: needed by main executable
+02-28 13:00:30.855  1089  1089 E QSEECOMPAT: load_app:name 05B04A44-BF30-42DF-9E2F-B366B980ED19 Error 12 
+02-28 13:00:30.855  1089  1094 E SmcInvoke_MinkDescriptor: mem obj with id :10 not found in list
+02-28 13:00:30.855  1089  1089 E QSEECOMPAT: QSEECom_start_app: load app failed with ret : -1
+02-28 13:00:30.856  1089  1089 D GPQeSE-HAL: 05B04A44-BF30-42DF-9E2F-B366B980ED19 application loading failed
+02-28 13:00:30.856  1089  1089 E GPQeSE-HAL: Failed on initalize eSE TA
+02-28 13:00:31.476   243   243 E [13:00:31:471-E][  243][qcom_subpmic]qcom_subpmic_sync_cfg_work: 219 Failed to send cp state, rc=-1
+02-28 13:00:31.732   243   243 E [13:00:31:727-E][  243][qcom_subpmic]qcom_subpmic_update_usb_type_work: 159 Failed to read usb_online rc=-1
+02-28 13:00:31.823   466  1097 W libc    : Unable to set property "ctl.interface_start" to "aidl/android.hardware.secure_element.ISecureElement/eSE1": error code: 0x20
+02-28 13:00:32.500   243   243 E [13:00:32:495-E][  243][qcom_subpmic]qcom_subpmic_sync_cfg_work: 219 Failed to send cp state, rc=-1
+02-28 13:00:32.824   466  1098 W libc    : Unable to set property "ctl.interface_start" to "aidl/android.hardware.secure_element.ISecureElement/eSE1": error code: 0x20
+02-28 13:00:33.122   699   700 W keystore2: system/security/keystore2/src/shared_secret_negotiation.rs:170 - Unable to connect "android.hardware.security.sharedsecret.ISharedSecret/strongbox" with error:
+02-28 13:00:33.524   243   243 E [13:00:33:519-E][  243][qcom_subpmic]qcom_subpmic_sync_cfg_work: 219 Failed to send cp state, rc=-1
+02-28 13:00:33.748   243   243 E [13:00:33:743-E][  243][qcom_subpmic]qcom_subpmic_update_usb_type_work: 159 Failed to read usb_online rc=-1
+02-28 13:00:33.810   475   488 E sec_channel  : Modemcomm: Init Instance on handle:0 failed with -3 
+02-28 13:00:33.810   475   488 E sec_channel  : Modemcomm: Failed to get handle of SSGSCA service as well - exiting
+02-28 13:00:33.825   466  1099 W libc    : Unable to set property "ctl.interface_start" to "aidl/android.hardware.secure_element.ISecureElement/eSE1": error code: 0x20
+02-28 13:00:34.548   243   243 E [13:00:34:543-E][  243][qcom_subpmic]qcom_subpmic_sync_cfg_work: 219 Failed to send cp state, rc=-1
+02-28 13:00:34.826   466  1100 W libc    : Unable to set property "ctl.interface_start" to "aidl/android.hardware.secure_element.ISecureElement/eSE1": error code: 0x20
+02-28 13:00:35.572   243   243 E [13:00:35:567-E][  243][qcom_subpmic]qcom_subpmic_sync_cfg_work: 219 Failed to send cp state, rc=-1
+02-28 13:00:35.764   243   243 E [13:00:35:759-E][  243][qcom_subpmic]qcom_subpmic_update_usb_type_work: 159 Failed to read usb_online rc=-1
+02-28 13:00:35.817  1101  1101 F libc    : Fatal signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr 0x0 in tid 1101 (touch_report), pid 1101 (touch_report)
+02-28 13:00:35.818  1103  1103 F libc    : failed to exec crash_dump helper: No such file or directory
+02-28 13:00:35.818  1101  1101 F libc    : crash_dump helper failed to exec, or was killed
+02-28 13:00:35.818  1101  1101 F libc    : failed to wait for crash_dump helper: No child processes
+02-28 13:00:35.826   466  1105 W libc    : Unable to set property "ctl.interface_start" to "aidl/android.hardware.secure_element.ISecureElement/eSE1": error code: 0x20
+02-28 13:00:35.832  1106  1106 F linker  : CANNOT LINK EXECUTABLE "/odm/bin/hw/android.hardware.weaver-service": library "libcxx.so" not found: needed by main executable
+02-28 13:00:35.851  1104  1110 E SmcInvoke_MinkDescriptor: mem obj with id :10 not found in list
+02-28 13:00:35.851  1104  1104 E QSEECOMPAT: load_app:name 05B04A44-BF30-42DF-9E2F-B366B980ED19 Error 12 
+02-28 13:00:35.851  1104  1104 E QSEECOMPAT: QSEECom_start_app: load app failed with ret : -1
+02-28 13:00:35.851  1104  1104 D GPQeSE-HAL: 05B04A44-BF30-42DF-9E2F-B366B980ED19 application loading failed
+02-28 13:00:35.851  1104  1104 E GPQeSE-HAL: Failed on initalize eSE TA
+02-28 13:00:36.596   243   243 E [13:00:36:591-E][  243][qcom_subpmic]qcom_subpmic_sync_cfg_work: 219 Failed to send cp state, rc=-1
+02-28 13:00:36.828   466  1112 W libc    : Unable to set property "ctl.interface_start" to "aidl/android.hardware.secure_element.ISecureElement/eSE1": error code: 0x20
+02-28 13:00:37.620   243   243 E [13:00:37:615-E][  243][qcom_subpmic]qcom_subpmic_sync_cfg_work: 219 Failed to send cp state, rc=-1
+02-28 13:00:37.780   243   243 E [13:00:37:775-E][  243][qcom_subpmic]qcom_subpmic_update_usb_type_work: 159 Failed to read usb_online rc=-1
+02-28 13:00:37.829   466  1113 W libc    : Unable to set property "ctl.interface_start" to "aidl/android.hardware.secure_element.ISecureElement/eSE1": error code: 0x20
+02-28 13:00:38.644   243   243 E [13:00:38:639-E][  243][qcom_subpmic]qcom_subpmic_sync_cfg_work: 219 Failed to send cp state, rc=-1
+02-28 13:00:38.830   466  1114 W libc    : Unable to set property "ctl.interface_start" to "aidl/android.hardware.secure_element.ISecureElement/eSE1": error code: 0x20
+02-28 13:00:39.142   699   700 W keystore2: system/security/keystore2/src/shared_secret_negotiation.rs:170 - Unable to connect "android.hardware.security.sharedsecret.ISharedSecret/strongbox" with error:
+02-28 13:00:39.668   243   243 E [13:00:39:663-E][  243][qcom_subpmic]qcom_subpmic_sync_cfg_work: 219 Failed to send cp state, rc=-1
+02-28 13:00:39.796   243   243 E [13:00:39:791-E][  243][qcom_subpmic]qcom_subpmic_update_usb_type_work: 159 Failed to read usb_online rc=-1
+02-28 13:00:39.811   475   488 E sec_channel  : Modemcomm: Init Instance on handle:0 failed with -3 
+02-28 13:00:39.811   475   488 E sec_channel  : Modemcomm: Failed to get handle of SSGQMSCA service
+02-28 13:00:39.832   466  1115 W libc    : Unable to set property "ctl.interface_start" to "aidl/android.hardware.secure_element.ISecureElement/eSE1": error code: 0x20
+02-28 13:00:40.692   243   243 E [13:00:40:687-E][  243][qcom_subpmic]qcom_subpmic_sync_cfg_work: 219 Failed to send cp state, rc=-1
+02-28 13:00:40.828  1116  1116 F libc    : Fatal signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr 0x0 in tid 1116 (touch_report), pid 1116 (touch_report)
+02-28 13:00:40.830  1119  1119 F libc    : failed to exec crash_dump helper: No such file or directory
+02-28 13:00:40.830  1116  1116 F libc    : crash_dump helper failed to exec, or was killed
+02-28 13:00:40.830  1116  1116 F libc    : failed to wait for crash_dump helper: No child processes
+02-28 13:00:40.838  1121  1121 F linker  : CANNOT LINK EXECUTABLE "/odm/bin/hw/android.hardware.weaver-service": library "libcxx.so" not found: needed by main executable
+02-28 13:00:40.839   466  1120 W libc    : Unable to set property "ctl.interface_start" to "aidl/android.hardware.secure_element.ISecureElement/eSE1": error code: 0x20
+02-28 13:00:40.855  1117  1117 E QSEECOMPAT: load_app:name 05B04A44-BF30-42DF-9E2F-B366B980ED19 Error 12 
+02-28 13:00:40.855  1117  1126 E SmcInvoke_MinkDescriptor: mem obj with id :10 not found in list
+02-28 13:00:40.855  1117  1117 E QSEECOMPAT: QSEECom_start_app: load app failed with ret : -1
+02-28 13:00:40.856  1117  1117 D GPQeSE-HAL: 05B04A44-BF30-42DF-9E2F-B366B980ED19 application loading failed
+02-28 13:00:40.856  1117  1117 E GPQeSE-HAL: Failed on initalize eSE TA
+02-28 13:00:41.716   243   243 E [13:00:41:711-E][  243][qcom_subpmic]qcom_subpmic_sync_cfg_work: 219 Failed to send cp state, rc=-1
+02-28 13:00:41.812   243   243 E [13:00:41:807-E][  243][qcom_subpmic]qcom_subpmic_update_usb_type_work: 159 Failed to read usb_online rc=-1
+02-28 13:00:41.833   466  1127 W libc    : Unable to set property "ctl.interface_start" to "aidl/android.hardware.secure_element.ISecureElement/eSE1": error code: 0x20
+02-28 13:00:42.740   243   243 E [13:00:42:735-E][  243][qcom_subpmic]qcom_subpmic_sync_cfg_work: 219 Failed to send cp state, rc=-1
+02-28 13:00:42.834   466  1128 W libc    : Unable to set property "ctl.interface_start" to "aidl/android.hardware.secure_element.ISecureElement/eSE1": error code: 0x20
+02-28 13:00:43.764   243   243 E [13:00:43:759-E][  243][qcom_subpmic]qcom_subpmic_sync_cfg_work: 219 Failed to send cp state, rc=-1
+02-28 13:00:43.828   243   243 E [13:00:43:823-E][  243][qcom_subpmic]qcom_subpmic_update_usb_type_work: 159 Failed to read usb_online rc=-1
+02-28 13:00:43.834   466  1129 W libc    : Unable to set property "ctl.interface_start" to "aidl/android.hardware.secure_element.ISecureElement/eSE1": error code: 0x20
+02-28 13:00:44.788   243   243 E [13:00:44:783-E][  243][qcom_subpmic]qcom_subpmic_sync_cfg_work: 219 Failed to send cp state, rc=-1
+02-28 13:00:44.813   475   488 E sec_channel  : Modemcomm: Init Instance on handle:0 failed with -3 
+02-28 13:00:44.813   475   488 E sec_channel  : Modemcomm: Failed to get handle of SSGSCA service as well - exiting
+02-28 13:00:44.836   466  1130 W libc    : Unable to set property "ctl.interface_start" to "aidl/android.hardware.secure_element.ISecureElement/eSE1": error code: 0x20
+02-28 13:00:45.159   699   700 W keystore2: system/security/keystore2/src/shared_secret_negotiation.rs:170 - Unable to connect "android.hardware.security.sharedsecret.ISharedSecret/strongbox" with error:
+02-28 13:00:45.812   243   243 E [13:00:45:807-E][  243][qcom_subpmic]qcom_subpmic_sync_cfg_work: 219 Failed to send cp state, rc=-1
+02-28 13:00:45.813   475   488 E sec_channel  : Modemcomm: qmi_client_send_msg_sync for ssgsca svc failed -18
+02-28 13:00:45.831  1131  1131 F libc    : Fatal signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr 0x0 in tid 1131 (touch_report), pid 1131 (touch_report)
+02-28 13:00:45.833  1134  1134 F libc    : failed to exec crash_dump helper: No such file or directory
+02-28 13:00:45.833  1131  1131 F libc    : crash_dump helper failed to exec, or was killed
+02-28 13:00:45.834  1131  1131 F libc    : failed to wait for crash_dump helper: No child processes
+02-28 13:00:45.839   466  1136 W libc    : Unable to set property "ctl.interface_start" to "aidl/android.hardware.secure_element.ISecureElement/eSE1": error code: 0x20
+02-28 13:00:45.844   243   243 E [13:00:45:839-E][  243][qcom_subpmic]qcom_subpmic_update_usb_type_work: 159 Failed to read usb_online rc=-1
+02-28 13:00:45.841  1135  1135 F linker  : CANNOT LINK EXECUTABLE "/odm/bin/hw/android.hardware.weaver-service": library "libcxx.so" not found: needed by main executable
+02-28 13:00:45.862  1132  1132 E QSEECOMPAT: load_app:name 05B04A44-BF30-42DF-9E2F-B366B980ED19 Error 12 
+02-28 13:00:45.862  1132  1141 E SmcInvoke_MinkDescriptor: mem obj with id :10 not found in list
+02-28 13:00:45.862  1132  1132 E QSEECOMPAT: QSEECom_start_app: load app failed with ret : -1
+02-28 13:00:45.862  1132  1132 D GPQeSE-HAL: 05B04A44-BF30-42DF-9E2F-B366B980ED19 application loading failed
+02-28 13:00:45.862  1132  1132 E GPQeSE-HAL: Failed on initalize eSE TA
+02-28 13:00:46.836   243   243 E [13:00:46:831-E][  243][qcom_subpmic]qcom_subpmic_sync_cfg_work: 219 Failed to send cp state, rc=-1
+02-28 13:00:46.838   466  1142 W libc    : Unable to set property "ctl.interface_start" to "aidl/android.hardware.secure_element.ISecureElement/eSE1": error code: 0x20
+02-28 13:00:47.838   466  1143 W libc    : Unable to set property "ctl.interface_start" to "aidl/android.hardware.secure_element.ISecureElement/eSE1": error code: 0x20
+02-28 13:00:47.860   243   243 E [13:00:47:855-E][  243][qcom_subpmic]qcom_subpmic_sync_cfg_work: 219 Failed to send cp state, rc=-1
+02-28 13:00:47.860   243   243 E [13:00:47:855-E][  243][qcom_subpmic]qcom_subpmic_update_usb_type_work: 159 Failed to read usb_online rc=-1
+02-28 13:00:48.839   466  1144 W libc    : Unable to set property "ctl.interface_start" to "aidl/android.hardware.secure_element.ISecureElement/eSE1": error code: 0x20
+02-28 13:00:48.884   243   243 E [13:00:48:879-E][  243][qcom_subpmic]qcom_subpmic_sync_cfg_work: 219 Failed to send cp state, rc=-1
+02-28 13:00:49.840   466  1145 W libc    : Unable to set property "ctl.interface_start" to "aidl/android.hardware.secure_element.ISecureElement/eSE1": error code: 0x20
+02-28 13:00:49.876   243   243 E [13:00:49:871-E][  243][qcom_subpmic]qcom_subpmic_update_usb_type_work: 159 Failed to read usb_online rc=-1
+02-28 13:00:49.908   243   243 E [13:00:49:903-E][  243][qcom_subpmic]qcom_subpmic_sync_cfg_work: 219 Failed to send cp state, rc=-1
+02-28 13:00:50.816   475   488 E sec_channel  : Modemcomm: Init Instance on handle:0 failed with -3 
+02-28 13:00:50.816   475   488 E sec_channel  : Modemcomm: Failed to get handle of SSGQMSCA service
+02-28 13:00:50.834  1146  1146 F libc    : Fatal signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr 0x0 in tid 1146 (touch_report), pid 1146 (touch_report)
+02-28 13:00:50.836  1149  1149 F libc    : failed to exec crash_dump helper: No such file or directory
+02-28 13:00:50.836  1146  1146 F libc    : crash_dump helper failed to exec, or was killed
+02-28 13:00:50.836  1146  1146 F libc    : failed to wait for crash_dump helper: No child processes
+02-28 13:00:50.843   466  1151 W libc    : Unable to set property "ctl.interface_start" to "aidl/android.hardware.secure_element.ISecureElement/eSE1": error code: 0x20
+02-28 13:00:50.844  1150  1150 F linker  : CANNOT LINK EXECUTABLE "/odm/bin/hw/android.hardware.weaver-service": library "libcxx.so" not found: needed by main executable
+02-28 13:00:50.868  1147  1154 E SmcInvoke_MinkDescriptor: mem obj with id :10 not found in list
+02-28 13:00:50.868  1147  1147 E QSEECOMPAT: load_app:name 05B04A44-BF30-42DF-9E2F-B366B980ED19 Error 12 
+02-28 13:00:50.868  1147  1147 E QSEECOMPAT: QSEECom_start_app: load app failed with ret : -1
+02-28 13:00:50.868  1147  1147 D GPQeSE-HAL: 05B04A44-BF30-42DF-9E2F-B366B980ED19 application loading failed
+02-28 13:00:50.868  1147  1147 E GPQeSE-HAL: Failed on initalize eSE TA
+02-28 13:00:50.932   243   243 E [13:00:50:927-E][  243][qcom_subpmic]qcom_subpmic_sync_cfg_work: 219 Failed to send cp state, rc=-1
+02-28 13:00:51.177   699   700 W keystore2: system/security/keystore2/src/shared_secret_negotiation.rs:170 - Unable to connect "android.hardware.security.sharedsecret.ISharedSecret/strongbox" with error:
+02-28 13:00:51.841   466  1157 W libc    : Unable to set property "ctl.interface_start" to "aidl/android.hardware.secure_element.ISecureElement/eSE1": error code: 0x20
+02-28 13:00:51.892   243   243 E [13:00:51:887-E][  243][qcom_subpmic]qcom_subpmic_update_usb_type_work: 159 Failed to read usb_online rc=-1
+02-28 13:00:52.842   466  1158 W libc    : Unable to set property "ctl.interface_start" to "aidl/android.hardware.secure_element.ISecureElement/eSE1": error code: 0x20
+02-28 13:00:53.842   466  1159 W libc    : Unable to set property "ctl.interface_start" to "aidl/android.hardware.secure_element.ISecureElement/eSE1": error code: 0x20
+02-28 13:00:53.908   243   243 E [13:00:53:903-E][  243][qcom_subpmic]qcom_subpmic_update_usb_type_work: 159 Failed to read usb_online rc=-1
+02-28 13:00:54.843   466  1160 W libc    : Unable to set property "ctl.interface_start" to "aidl/android.hardware.secure_element.ISecureElement/eSE1": error code: 0x20
+02-28 13:00:55.817   475   488 E sec_channel  : Modemcomm: Init Instance on handle:0 failed with -3 
+02-28 13:00:55.817   475   488 E sec_channel  : Modemcomm: Failed to get handle of SSGSCA service as well - exiting
+02-28 13:00:55.839  1161  1161 F libc    : Fatal signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr 0x0 in tid 1161 (touch_report), pid 1161 (touch_report)
+02-28 13:00:55.840  1164  1164 F libc    : failed to exec crash_dump helper: No such file or directory
+02-28 13:00:55.841  1161  1161 F libc    : crash_dump helper failed to exec, or was killed
+02-28 13:00:55.841  1161  1161 F libc    : failed to wait for crash_dump helper: No child processes
+02-28 13:00:55.845   466  1166 W libc    : Unable to set property "ctl.interface_start" to "aidl/android.hardware.secure_element.ISecureElement/eSE1": error code: 0x20
+02-28 13:00:55.846  1165  1165 F linker  : CANNOT LINK EXECUTABLE "/odm/bin/hw/android.hardware.weaver-service": library "libcxx.so" not found: needed by main executable
+02-28 13:00:55.863  1162  1171 E SmcInvoke_MinkDescriptor: mem obj with id :10 not found in list
+02-28 13:00:55.863  1162  1162 E QSEECOMPAT: load_app:name 05B04A44-BF30-42DF-9E2F-B366B980ED19 Error 12 
+02-28 13:00:55.863  1162  1162 E QSEECOMPAT: QSEECom_start_app: load app failed with ret : -1
+02-28 13:00:55.864  1162  1162 D GPQeSE-HAL: 05B04A44-BF30-42DF-9E2F-B366B980ED19 application loading failed
+02-28 13:00:55.864  1162  1162 E GPQeSE-HAL: Failed on initalize eSE TA
+02-28 13:00:55.924   243   243 E [13:00:55:919-E][  243][qcom_subpmic]qcom_subpmic_update_usb_type_work: 159 Failed to read usb_online rc=-1
+02-28 13:00:56.845   466  1172 W libc    : Unable to set property "ctl.interface_start" to "aidl/android.hardware.secure_element.ISecureElement/eSE1": error code: 0x20
+02-28 13:00:57.195   699   700 W keystore2: system/security/keystore2/src/shared_secret_negotiation.rs:170 - Unable to connect "android.hardware.security.sharedsecret.ISharedSecret/strongbox" with error:
+02-28 13:00:57.845   466  1173 W libc    : Unable to set property "ctl.interface_start" to "aidl/android.hardware.secure_element.ISecureElement/eSE1": error code: 0x20
+02-28 13:00:57.940   243   243 E [13:00:57:935-E][  243][qcom_subpmic]qcom_subpmic_update_usb_type_work: 159 Failed to read usb_online rc=-1
+02-28 13:00:58.846   466  1174 W libc    : Unable to set property "ctl.interface_start" to "aidl/android.hardware.secure_element.ISecureElement/eSE1": error code: 0x20
+02-28 13:00:59.846   466  1175 W libc    : Unable to set property "ctl.interface_start" to "aidl/android.hardware.secure_element.ISecureElement/eSE1": error code: 0x20
+02-28 13:00:59.956   243   243 E [13:00:59:951-E][  243][qcom_subpmic]qcom_subpmic_update_usb_type_work: 159 Failed to read usb_online rc=-1
+02-28 13:01:00.842  1176  1176 F libc    : Fatal signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr 0x0 in tid 1176 (touch_report), pid 1176 (touch_report)
+02-28 13:01:00.844  1179  1179 F libc    : failed to exec crash_dump helper: No such file or directory
+02-28 13:01:00.844  1176  1176 F libc    : crash_dump helper failed to exec, or was killed
+02-28 13:01:00.844  1176  1176 F libc    : failed to wait for crash_dump helper: No child processes
+02-28 13:01:00.851  1180  1180 F linker  : CANNOT LINK EXECUTABLE "/odm/bin/hw/android.hardware.weaver-service": library "libcxx.so" not found: needed by main executable
+02-28 13:01:00.853   466  1181 W libc    : Unable to set property "ctl.interface_start" to "aidl/android.hardware.secure_element.ISecureElement/eSE1": error code: 0x20
+02-28 13:01:00.870  1177  1186 E SmcInvoke_MinkDescriptor: mem obj with id :10 not found in list
+02-28 13:01:00.870  1177  1177 E QSEECOMPAT: load_app:name 05B04A44-BF30-42DF-9E2F-B366B980ED19 Error 12 
+02-28 13:01:00.870  1177  1177 E QSEECOMPAT: QSEECom_start_app: load app failed with ret : -1
+02-28 13:01:00.870  1177  1177 D GPQeSE-HAL: 05B04A44-BF30-42DF-9E2F-B366B980ED19 application loading failed
+02-28 13:01:00.870  1177  1177 E GPQeSE-HAL: Failed on initalize eSE TA
+02-28 13:01:01.819   475   488 E sec_channel  : Modemcomm: Init Instance on handle:0 failed with -3 
+02-28 13:01:01.819   475   488 E sec_channel  : Modemcomm: Failed to get handle of SSGQMSCA service
+02-28 13:01:01.847   466  1187 W libc    : Unable to set property "ctl.interface_start" to "aidl/android.hardware.secure_element.ISecureElement/eSE1": error code: 0x20
+02-28 13:01:01.972   243   243 E [13:01:01:967-E][  243][qcom_subpmic]qcom_subpmic_update_usb_type_work: 159 Failed to read usb_online rc=-1
+02-28 13:01:02.848   466  1188 W libc    : Unable to set property "ctl.interface_start" to "aidl/android.hardware.secure_element.ISecureElement/eSE1": error code: 0x20
+02-28 13:01:03.214   699   700 W keystore2: system/security/keystore2/src/shared_secret_negotiation.rs:170 - Unable to connect "android.hardware.security.sharedsecret.ISharedSecret/strongbox" with error:
+02-28 13:01:03.849   466  1189 W libc    : Unable to set property "ctl.interface_start" to "aidl/android.hardware.secure_element.ISecureElement/eSE1": error code: 0x20
+02-28 13:01:03.988   243   243 E [13:01:03:983-E][  243][qcom_subpmic]qcom_subpmic_update_usb_type_work: 159 Failed to read usb_online rc=-1
+02-28 13:01:04.850   466  1190 W libc    : Unable to set property "ctl.interface_start" to "aidl/android.hardware.secure_element.ISecureElement/eSE1": error code: 0x20
+02-28 13:01:05.846  1191  1191 F libc    : Fatal signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr 0x0 in tid 1191 (touch_report), pid 1191 (touch_report)
+02-28 13:01:05.848  1194  1194 F libc    : failed to exec crash_dump helper: No such file or directory
+02-28 13:01:05.848  1191  1191 F libc    : crash_dump helper failed to exec, or was killed
+02-28 13:01:05.849  1191  1191 F libc    : failed to wait for crash_dump helper: No child processes
+02-28 13:01:05.850   466  1196 W libc    : Unable to set property "ctl.interface_start" to "aidl/android.hardware.secure_element.ISecureElement/eSE1": error code: 0x20
+02-28 13:01:05.851  1195  1195 F linker  : CANNOT LINK EXECUTABLE "/odm/bin/hw/android.hardware.weaver-service": library "libcxx.so" not found: needed by main executable
+02-28 13:01:05.873  1192  1192 E QSEECOMPAT: load_app:name 05B04A44-BF30-42DF-9E2F-B366B980ED19 Error 12 
+02-28 13:01:05.873  1192  1199 E SmcInvoke_MinkDescriptor: mem obj with id :10 not found in list
+02-28 13:01:05.873  1192  1192 E QSEECOMPAT: QSEECom_start_app: load app failed with ret : -1
+02-28 13:01:05.873  1192  1192 D GPQeSE-HAL: 05B04A44-BF30-42DF-9E2F-B366B980ED19 application loading failed
+02-28 13:01:05.873  1192  1192 E GPQeSE-HAL: Failed on initalize eSE TA
+02-28 13:01:06.004   243   243 E [13:01:05:999-E][  243][qcom_subpmic]qcom_subpmic_update_usb_type_work: 159 Failed to read usb_online rc=-1
+02-28 13:01:06.820   475   488 E sec_channel  : Modemcomm: Init Instance on handle:0 failed with -3 
+02-28 13:01:06.820   475   488 E sec_channel  : Modemcomm: Failed to get handle of SSGSCA service as well - exiting
+02-28 13:01:06.851   466  1202 W libc    : Unable to set property "ctl.interface_start" to "aidl/android.hardware.secure_element.ISecureElement/eSE1": error code: 0x20
+02-28 13:01:07.851   466  1203 W libc    : Unable to set property "ctl.interface_start" to "aidl/android.hardware.secure_element.ISecureElement/eSE1": error code: 0x20
+02-28 13:01:08.020   243   243 E [13:01:08:015-E][  243][qcom_subpmic]qcom_subpmic_update_usb_type_work: 159 Failed to read usb_online rc=-1
+02-28 13:01:08.852   466  1204 W libc    : Unable to set property "ctl.interface_start" to "aidl/android.hardware.secure_element.ISecureElement/eSE1": error code: 0x20
+02-28 13:01:09.231   699   700 W keystore2: system/security/keystore2/src/shared_secret_negotiation.rs:170 - Unable to connect "android.hardware.security.sharedsecret.ISharedSecret/strongbox" with error:
+02-28 13:01:09.853   466  1205 W libc    : Unable to set property "ctl.interface_start" to "aidl/android.hardware.secure_element.ISecureElement/eSE1": error code: 0x20
+02-28 13:01:10.036   243   243 E [13:01:10:031-E][  243][qcom_subpmic]qcom_subpmic_update_usb_type_work: 159 Failed to read usb_online rc=-1
+02-28 13:01:10.850  1206  1206 F libc    : Fatal signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr 0x0 in tid 1206 (touch_report), pid 1206 (touch_report)
+02-28 13:01:10.852  1209  1209 F libc    : failed to exec crash_dump helper: No such file or directory
+02-28 13:01:10.853  1206  1206 F libc    : crash_dump helper failed to exec, or was killed
+02-28 13:01:10.853  1206  1206 F libc    : failed to wait for crash_dump helper: No child processes
+02-28 13:01:10.856  1211  1211 F linker  : CANNOT LINK EXECUTABLE "/odm/bin/hw/android.hardware.weaver-service": library "libcxx.so" not found: needed by main executable
+02-28 13:01:10.857   466  1210 W libc    : Unable to set property "ctl.interface_start" to "aidl/android.hardware.secure_element.ISecureElement/eSE1": error code: 0x20
+02-28 13:01:10.876  1207  1207 E QSEECOMPAT: load_app:name 05B04A44-BF30-42DF-9E2F-B366B980ED19 Error 12 
+02-28 13:01:10.876  1207  1216 E SmcInvoke_MinkDescriptor: mem obj with id :10 not found in list
+02-28 13:01:10.876  1207  1207 E QSEECOMPAT: QSEECom_start_app: load app failed with ret : -1
+02-28 13:01:10.876  1207  1207 D GPQeSE-HAL: 05B04A44-BF30-42DF-9E2F-B366B980ED19 application loading failed
+02-28 13:01:10.876  1207  1207 E GPQeSE-HAL: Failed on initalize eSE TA
+02-28 13:01:11.854   466  1217 W libc    : Unable to set property "ctl.interface_start" to "aidl/android.hardware.secure_element.ISecureElement/eSE1": error code: 0x20
+02-28 13:01:12.052   243   243 E [13:01:12:047-E][  243][qcom_subpmic]qcom_subpmic_update_usb_type_work: 159 Failed to read usb_online rc=-1
+02-28 13:01:12.822   475   488 E sec_channel  : Modemcomm: Init Instance on handle:0 failed with -3 
+02-28 13:01:12.822   475   488 E sec_channel  : Modemcomm: Failed to get handle of SSGQMSCA service
+02-28 13:01:12.855   466  1218 W libc    : Unable to set property "ctl.interface_start" to "aidl/android.hardware.secure_element.ISecureElement/eSE1": error code: 0x20
