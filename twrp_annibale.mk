@@ -16,7 +16,7 @@ PRODUCT_RELEASE_NAME := annibale
 PRODUCT_DEVICE := annibale
 PRODUCT_NAME := twrp_annibale
 PRODUCT_BRAND := Xiaomi
-PRODUCT_MODEL := RedmiTurbo4Pro
+PRODUCT_MODEL := POCO F8 Pro
 PRODUCT_MANUFACTURER := Xiaomi
 
 # Assert

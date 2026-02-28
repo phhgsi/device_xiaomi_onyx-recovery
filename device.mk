@@ -28,7 +28,7 @@ $(call inherit-product, vendor/twrp/config/common.mk)
 $(call inherit-product, $(DEVICE_PATH)/fox_annibale.mk)
 
 PRODUCT_PACKAGES += \
-    bootctrl.xiaomi_sm8735.recovery \
+    bootctrl.xiaomi_sm8750.recovery \
     android.hardware.boot@1.2-impl-qti.recovery
 
 # API
