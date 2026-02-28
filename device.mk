@@ -4,7 +4,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/xiaomi/onyx
+DEVICE_PATH := device/xiaomi/annibale
 
 # Configure base.mk
 $(call inherit-product, $(SRC_TARGET_DIR)/product/base.mk)
@@ -25,7 +25,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/emulated_storage.mk)
 $(call inherit-product, vendor/twrp/config/common.mk)
 
 # some OrangeFox-specific settings
-$(call inherit-product, $(DEVICE_PATH)/fox_onyx.mk)
+$(call inherit-product, $(DEVICE_PATH)/fox_annibale.mk)
 
 PRODUCT_PACKAGES += \
     bootctrl.xiaomi_sm8735.recovery \

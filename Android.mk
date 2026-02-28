@@ -6,6 +6,6 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE),onyx)
+ifeq ($(TARGET_DEVICE),annibale)
 include $(call all-subdir-makefiles,$(LOCAL_PATH))
 endif
